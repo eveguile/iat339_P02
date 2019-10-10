@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico|Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Lobster|Overlock|Pacifico|Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Assistant|Be+Vietnam|Crete+Round|Signika&display=swap');
 
 *{
     margin:0px;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #f5e9db;
 
 }
 
@@ -19,9 +16,10 @@ body {
 header{
   padding: 30px 80px;
   cursor: pointer;
-  font-family: 'Lobster', cursive;
+  font-family: 'Noto Serif', serif;
   font-size: 30px;
 }
+
 /*main navigation bar section*/
   .main_nav{
     border-top: 2px solid black;
@@ -74,16 +72,16 @@ header{
 
   #interactive_elements h2,  #text_elements h1, #combined_elements h2, .Palette h2{
     margin-top: 40px;
-    border-bottom: 2px solid #420000;
+    border-bottom: 2px solid #14564a;
     width:300px;
     font-style: bold;
-    color: #420000;
+    color: #14564a;
     font-family: 'Be Vietnam', sans-serif;
   }
 
   #interactive_elements .element h3, .navbar h3,
   .buttons h3, .navbar h4, .buttons h5, .Input_Text h2, #Input-Text h3, .radio h3,h4, .image_link h3, .lists h3{
-    color: #8b4367;
+    color: #a1c0ae;
     font-size: 18px;
     font-family: 'Assistant', sans-serif;
     margin-top: 40px;
