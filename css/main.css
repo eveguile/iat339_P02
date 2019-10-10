@@ -16,7 +16,7 @@ body {
 header{
   padding: 30px 80px;
   cursor: pointer;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Mansalva', cursive;
   font-size: 30px;
 }
 
@@ -49,7 +49,7 @@ header{
     font-size: 15px;
     display: inline-block;
     justify-content: space-between;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
   }
 
@@ -59,7 +59,7 @@ header{
   }
 
   .navbar li a:hover, .main_nav li a:hover{
-    color:#943855;
+    color:#eb9c7d;
   }
 
 /*interactive elements bar section*/
@@ -76,14 +76,14 @@ header{
     width:300px;
     font-style: bold;
     color: #14564a;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   #interactive_elements .element h3, .navbar h3,
   .buttons h3, .navbar h4, .buttons h5, .Input_Text h2, #Input-Text h3, .radio h3,h4, .image_link h3, .lists h3{
     color: #a1c0ae;
     font-size: 18px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -96,8 +96,8 @@ header{
     padding: 10px;
   }
   #interactive_elements .element a:hover{
-    border-bottom: solid 2px #b5525c;
-    color:#be6283;
+    border-bottom: solid 2px #eb9c7d;
+    color:#eb9c7d;
   }
   #interactive_elements .element code, .navbar code, .buttons code, .lists code{
     background-color: white;
@@ -139,22 +139,22 @@ transition: all 0.4s ease 0s;
 }
 .button:hover {
 color: #ffffff ;
-background: #bb7171;
+background: #9ebfac;
 border: 1px solid white;
 transition: all 0.4s ease 0s;
 }
 
 .Input_Text form,label{
-  font-family: 'Overlock', cursive;
   margin-bottom: 30px;
   margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .Input_Text input{
   font-size: 14px;
   margin-left: 1.5em;
   margin-bottom: 10px;
-  border: 1px solid #781351
+  border: 1px solid #0c5045;
 }
 #Input-Text code{
   display: block;
@@ -186,11 +186,11 @@ transition: all 0.4s ease 0s;
 
 .radio input:hover
 {
-     background: #9faab7;
+     background: #9ebfac;
 }
 .radio input:checked
 {
-     background: #c06c84;
+     background: #0c5045;
 }
 .radio h4,h3{
   margin-top: 40px;
@@ -218,17 +218,17 @@ transition: all 0.4s ease 0s;
 #text_elements .element h2{
   margin-top: 50px;
   font-size: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Mansalva', cursive;
 }
 #text_elements .element h3{
   font-size: 25px;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #text_elements .element h5{
   margin-top: 40px;
   font-size: 16px;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #text_elements p{
   margin-top: 40px;
@@ -238,7 +238,7 @@ transition: all 0.4s ease 0s;
 
 .lists ol{
   margin-left: 60px;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
@@ -253,7 +253,8 @@ transition: all 0.4s ease 0s;
   font-size: 15px;
   display: inline-block;
   justify-content: space-between;
-  font-family: 'Overlock', cursive;
+  font-family: 'Ubuntu', sans-serif;
+
 
 }
 
@@ -264,7 +265,7 @@ transition: all 0.4s ease 0s;
 
 #combined_elements .nav_links li a:hover {
 
-color:#c06c84;
+color:#0c5045;
 }
 #combined_elements code{
   background-color: white;
@@ -297,14 +298,14 @@ color:#c06c84;
 }
 .column1 .item h1{
   font-size: 25px;
+  font-family: 'Mansalva', cursive;
 }
 .column1 .item p{
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 13px;
   padding-top: 5px;
 }
 .column1 .item a{
-  font-family: 'Be Vietnam', sans-serif;
   text-decoration: none;
   color:black;
   font-size: 12px;
@@ -326,10 +327,10 @@ color:#c06c84;
 
 }
 .payment input:hover, input:active, .column3 .btn:hover {
-  background-color:#c19191;
+  background-color:#eb9c7d;
 }
 .payment .btn, .column3 .btn{
-    background-color: #aa7070;
+    background-color:#eb9c7d;
     color: white;
     padding: 13px;
     margin: 10px 0;
@@ -347,7 +348,7 @@ color:#c06c84;
 }
 
 .column3 .btn{
-    background-color: #aa7070;
+    background-color: #eb9c7d;
     color: white;
     padding: 13px;
     display: block;
@@ -414,24 +415,25 @@ color:#c06c84;
 }
 
 .BRANDING_COMPONENTS p{
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 60px;
+  margin-right: 100px;
 }
 .Fonts h1,h3,h4{
   margin-top: 40px;
 
 }
 .Fonts h1{
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
+  font-size: 32px;
+  font-family: 'Mansalva', cursive;
 }
 .Fonts h3{
   font-size: 25px;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .Fonts h4{
   font-size: 16px;
-  font-family: 'Assistant', sans-serif;
+  color:black;
 }
 
 .Palette, .Imagery{
@@ -457,34 +459,37 @@ color:#c06c84;
   }
 
 .Palette #b{
-  background-color: #943855;
+  background-color: #f4e8da;
+  border: 1px solid black;
 }
 .Palette #c{
-  background-color: #f1e4e4;
+  background-color: #9ebfac;
 }
 .Palette #d{
-  background-color:#c06c84;
+  background-color:#0c5045;
 }
 .Palette #e{
-  background-color:#e9e4e6;
+  background-color:#eb9c7d;
 }
 
 .Imagery img{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
 }
 .Imagery {
-  margin-top: 100px;
+  margin-right: 80px;
+  padding-right: 10px;
+  margin-bottom: 150px;
 }
 
 .citations {
-  background-color: #eee;
   border: 1px solid #999;
   display: block;
   padding: 20px;
   margin: 80px;
   margin-top: 150px;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 11px;
 }
 @media screen and (max-width: 750px) {
