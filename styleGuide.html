@@ -1,252 +1,250 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <title>TeaLife</title>
+  <meta charset="utf-8">
+  <title>TeaLife</title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Mansalva|Montserrat|Ubuntu:500&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mansalva|Montserrat|Ubuntu:500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>STYLE GUIDE <br>Tealife</header>
+
+  <div class="main_nav">
+
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#interactive_elements">Interactive Elements</a></li>
+        <li><a href="#Text_styling"> Text styling</a></li>
+        <li><a href="#Combined elements">Combined elements</a></li>
+        <li><a href="#Branding_Components">Branding</a></li>
+    </nav>
+
+  </div>
 
 
-  </head>
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>INTERACTIVE ELEMENTS</h2>
 
-  <body>
+    <section class="element">
+      <h3>IN-TEXT LINK</h3>
+      <a href="#SEE_MORE_DETAILS">MORE DETAILS</a>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#SEE_MORE_DETAILS"&gt; MORE DETAILS&lt;/a&gt;</code>
+    </section>
 
-    <header>STYLE GUIDE <br>Tealife</header>
+  </section>
 
-    <div class="main_nav">
+  <!-- Default Button styling section -->
+  <section class="navbar">
 
-        <nav>
-            <ul class="nav_links">
-            <li><a href="#interactive_elements">Interactive Elements</a></li>
-            <li><a href="#Text_styling"> Text styling</a></li>
-            <li><a href="#Combined elements">Combined elements</a></li>
-            <li><a href="#Branding_Components">Branding</a></li>
-        </nav>
+    <h3>NAVIGATION LINK</h3>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#interactive_elements" </a>STYLE GUIDE</li> </ul> </nav> <h4>Sample code:</h4>
+            <code>&lt;a href="#Cart"&gt; Cart &lt;/a&gt;</code>
 
-    </div>
+  </section>
 
 
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-        <h2>INTERACTIVE ELEMENTS</h2>
+  <section class="buttons">
+    <h3>SUBMIT/RESET BUTTONS</h3>
+    <ul>
+      <a class="button" href="add-website-here" rel="submit">SUBMIT</a>
+      <a class="button" href="add-website-here" rel="see_more">SEE MORE</a>
+      <a class="button" href="add-website-here" rel="login">LOGIN</a>
+    </ul>
 
-        <section class="element">
-          <h3>IN-TEXT LINK</h3>
-          <a href="#SEE_MORE_DETAILS">MORE DETAILS</a>
-          <h3>Sample code:</h3>
-          <code>&lt;a href="#SEE_MORE_DETAILS"&gt; MORE DETAILS&lt;/a&gt;</code>
-        </section>
+    <h5>Sample code:</h5>
+    <code>&lt;button type="button" onclick="Submit"&gt; Submit</code>
+  </section>
+
+
+  <section id="Input-Text">
+    <section class="Input_Text">
+      <h2>INPUT TEXT</h2>
+
+
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Full name</label><br>
+          <input type="email" class="form-control" placeholder="Enter name"><br>
+
+          <label for="exampleInputPassword1">Address</label><br>
+          <input type="Address 1" class="form-control" placeholder="Address"><br>
+          <label for="exampleInputPassword1">Email Address</label><br>
+          <input type="Address 1" class="form-control" placeholder="Email"><br>
+      </form>
 
     </section>
 
-      <!-- Default Button styling section -->
-      <section class="navbar">
+    <h3>Sample code:</h3>
+    <code>&lt;label for="exampleInputEmail"&gt;Full name&lt;/label&gt;&lt;br&gt;<br>
+      &lt;input type="email" class="form-control"placeholder="Enter name"&gt;&lt;br&gt;</code>
 
-        <h3>NAVIGATION LINK</h3>
-        <nav>
-            <ul class="nav_links">
-              <li><a href="#interactive_elements"</a>STYLE GUIDE</li>
-            </ul>
-        </nav>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#Cart"&gt; Cart &lt;/a&gt;</code>
-
-      </section>
+  </section>
 
 
-      <section class="buttons">
-        <h3>SUBMIT/RESET BUTTONS</h3>
-        <ul>
-        <a class="button" href="add-website-here" rel="submit">SUBMIT</a>
-        <a class="button" href="add-website-here" rel="see_more">SEE MORE</a>
-        <a class="button" href="add-website-here" rel="login">LOGIN</a>
+
+
+
+
+  <section class="radio">
+    <h3>RADIO BUTTON WITH LABELS</h3>
+
+    <form>
+      <input type="radio" name="Plan" value="A" checked> Plan A<br>
+      <input type="radio" name="Plan" value="B"> Plan B<br>
+      <input type="radio" name="Plan" value="C"> Others
+    </form>
+    <h4>Sample Code</h4>
+    <code>&lt;input type="radio" name="Plan" value="A"&gt;Plan A<br>&lt;input type="radio" name="Plan" value="B"&gt;Plan B<br>&lt;input type="radio" name="Plan" value="Others"&gt;Others</code>
+  </section>
+
+
+  <section class="image_link">
+    <h3>IMAGE AS A LINK</h3>
+    <a href="">
+      <img src="image/7.png" alt=""></a>
+
+    <h3>Sample Code</h3>
+    <code>&lt;a href="flickr.com"&gt;&lt;img src="1.jpg" alt="earrings&gt;&lt;/a&gt;</code>
+
+  </section>
+
+
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h1><a name="Text_styling">TEXT STYLING</h1>
+
+    <section class="element">
+      <h2>Headings - 32px</h2>
+      <h3>Subheadings - 25px</h3>
+      <h5>This is the style for captions - 16px</h5>
+    </section>
+    <p>This is a sample styling for paragraphs - 14px<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <p><b>This is a sample of paragraph for important information or notices. <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+      </b>
+  </section>
+
+  <section class="lists">
+    <h3>Numbered Lists</h3>
+    <ol>
+      <li>Special Gift Sets</li>
+      <li>Summer tea Collection</li>
+      <li>New Arrivals</li>
+      <li>Healthy tea recommendations</li>
+    </ol>
+    <h3>Sample Code</h3>
+    <code>
+      &lt;ol&gt;
+      &lt;li&gt;Special Gift Sets&lt;/li&gt;
+      &lt;li&gt;Summer tea Collection&lt;/li&gt;
+      &lt;li&gt;New Arrivals&lt;/li&gt;
+      &lt;li&gt;Healthy tea recommendations&lt;/li&gt;
+      &lt;/ol&gt;
+    </code>
+
+  </section>
+
+
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2><a name="Combined elements">COMBINED ELEMENTS</h2>
+
+    <section class="nav_links">
+      <h3>Main Navigation</h3>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#interactive_elements" </a>STYLE GUIDE</li> <li><a href="http://www.sfu.ca/~jsa258/P01_FINAL/product_PO1/index1.html">PRODUCTS</a></li>
+          <li><a href="http://www.sfu.ca/~jsa258/P01_FINAL/Shopping%20Cart_PO1/">CART</a></li>
+          <li><a href="http://www.sfu.ca/~jsa258/P01_FINAL/checkout_PO1/">CHECKOUT</a></li>
         </ul>
+      </nav>
+      <h3>Sample Code</h3>
+      <code>
+        &lt;nav>
+        &lt;ul class="nav_links"&gt;&lt;/ol&gt;&lt;li&gt;&lt;/ol&gt;&lt;a href="#Style Guide"&gt;
+        &lt;/ol&gt;STYLE GUIDE&lt;/a&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;
+        &lt;/ol&gt;&lt;a href="#Product"&gt;&lt;/ol&gt;PRODUCTS&lt;/a&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;
+        &lt;/ol&gt;&lt;a href="#Cart"&gt;&lt;/ol&gt;CART&lt;/a&gt;&lt;/ol&gt;&lt;/li&gt;
+        &lt;/ol&gt;&lt;li&gt;&lt;/ol&gt;&lt;a href="#Checkout"&gt;&lt;/ol&gt;CHECKOUT&lt;/a&gt;
+        &lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;/ol&gt;&lt;/nav>
+      </code>
+    </section>
 
-        <h5>Sample code:</h5>
-        <code>&lt;button type="button" onclick="Submit"&gt; Submit</code>
-      </section>
+    <h3>Payment</h3>
+    <div class="payment">
+      <form>
+        <label for="cname">Name on Card</label><br>
+        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
 
+        <br><label for="ccnum">Credit card number</label>
+        <br><input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
 
-      <section id="Input-Text">
-        <section class="Input_Text">
-            <h2>INPUT TEXT</h2>
+        <br><label for="expmonth">Exp Month</label>
+        <br><input type="text" id="expmonth" name="expmonth" placeholder="September">
 
+        <br><label for="expyear">Exp Year</label>
+        <br><input type="text" id="expyear" name="expyear" placeholder="2018">
 
-            <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Full name</label><br>
-              <input type="email" class="form-control"placeholder="Enter name"><br>
+        <br><label for="cvv">CVV</label><br>
+        <input type="text" id="cvv" name="cvv" placeholder="352"><br>
+        <input type="confirm" value="Confirm" class="btn">
+      </form>
+    </div>
 
-              <label for="exampleInputPassword1">Address</label><br>
-              <input type="Address 1" class="form-control" placeholder="Address"><br>
-              <label for="exampleInputPassword1">Email Address</label><br>
-              <input type="Address 1" class="form-control" placeholder="Email"><br>
-            </form>
+    <h2>PRODUCT</h2>
+    <div class="column1">
+      <div class="New_Arrivals">
 
-          </section>
-          <h3>Sample code:</h3>
-          <code>&lt;label for="exampleInputEmail"&gt;Full name&lt;/label&gt;&lt;br&gt;<br>
-            &lt;input type="email" class="form-control"placeholder="Enter name"&gt;&lt;br&gt;</code>
-        </section>
-
-
-
-
-
-
-      <section class="radio">
-        <h3>RADIO BUTTON WITH LABELS</h3>
-
-        <form>
-          <input type="radio" name="Plan" value="A" checked> Plan A<br>
-          <input type="radio" name="Plan" value="B"> Plan B<br>
-          <input type="radio" name="Plan" value="C"> Others
-        </form>
-        <h4>Sample Code</h4>
-          <code>&lt;input type="radio" name="Plan" value="A"&gt;Plan A<br>&lt;input type="radio" name="Plan" value="B"&gt;Plan B<br>&lt;input type="radio" name="Plan" value="Others"&gt;Others</code>
-      </section>
-
-
-      <section class="image_link">
-        <h3>IMAGE AS A LINK</h3>
-        <a href="">
-        <img src="image/7.png" alt="" ></a>
-
-        <h3>Sample Code</h3>
-          <code>&lt;a href="flickr.com"&gt;&lt;img src="1.jpg" alt="earrings&gt;&lt;/a&gt;</code>
-
-      </section>
-
-
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-      <h1><a name="Text_styling">TEXT STYLING</h1>
-
-      <section class="element">
-        <h2>Headings - 32px</h2>
-        <h3>Subheadings - 25px</h3>
-        <h5>This is the style for captions - 16px</h5>
-      </section>
-        <p>This is a sample styling for paragraphs - 14px<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-          <p><b>This is a sample of paragraph for important information or notices. <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-            </b>
-      </section>
-
-      <section class="lists">
-        <h3>Numbered Lists</h3>
-        <ol>
-          <li>Special Gift Sets</li>
-          <li>Summer tea Collection</li>
-          <li>New Arrivals</li>
-          <li>Healthy tea recommendations</li>
-        </ol>
-        <h3>Sample Code</h3>
-        <code>
-          &lt;ol&gt;
-            &lt;li&gt;Special Gift Sets&lt;/li&gt;
-            &lt;li&gt;Summer tea Collection&lt;/li&gt;
-            &lt;li&gt;New Arrivals&lt;/li&gt;
-            &lt;li&gt;Healthy tea recommendations&lt;/li&gt;
-          &lt;/ol&gt;
-        </code>
-
-      </section>
-
-
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-      <h2><a name="Combined elements">COMBINED ELEMENTS</h2>
-
-      <section class="nav_links">
-        <h3>Main Navigation</h3>
-        <nav>
-          <ul class="nav_links">
-            <li><a href="#interactive_elements"</a>STYLE GUIDE</li>
-            <li><a href="http://www.sfu.ca/~jsa258/P01_FINAL/product_PO1/index1.html">PRODUCTS</a></li>
-            <li><a href="http://www.sfu.ca/~jsa258/P01_FINAL/Shopping%20Cart_PO1/">CART</a></li>
-            <li><a href="http://www.sfu.ca/~jsa258/P01_FINAL/checkout_PO1/">CHECKOUT</a></li>
-          </ul>
-        </nav>
-        <h3>Sample Code</h3>
-        <code>
-          &lt;nav>
-              &lt;ul class="nav_links"&gt;&lt;/ol&gt;&lt;li&gt;&lt;/ol&gt;&lt;a href="#Style Guide"&gt;
-          &lt;/ol&gt;STYLE GUIDE&lt;/a&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;
-          &lt;/ol&gt;&lt;a href="#Product"&gt;&lt;/ol&gt;PRODUCTS&lt;/a&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;
-            &lt;/ol&gt;&lt;a href="#Cart"&gt;&lt;/ol&gt;CART&lt;/a&gt;&lt;/ol&gt;&lt;/li&gt;
-            &lt;/ol&gt;&lt;li&gt;&lt;/ol&gt;&lt;a href="#Checkout"&gt;&lt;/ol&gt;CHECKOUT&lt;/a&gt;
-            &lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;/ol&gt;&lt;/nav>
-        </code>
-      </section>
-
-      <h3>Payment</h3>
-      <div class="payment">
-          <form>
-            <label for="cname">Name on Card</label><br>
-            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-
-            <br><label for="ccnum">Credit card number</label>
-            <br><input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-
-            <br><label for="expmonth">Exp Month</label>
-            <br><input type="text" id="expmonth" name="expmonth" placeholder="September">
-
-            <br><label for="expyear">Exp Year</label>
-            <br><input type="text" id="expyear" name="expyear" placeholder="2018">
-
-            <br><label for="cvv">CVV</label><br>
-            <input type="text" id="cvv" name="cvv" placeholder="352"><br>
-            <input type="confirm" value="Confirm" class="btn">
-          </form>
-      </div>
-
-      <h2>PRODUCT</h2>
-      <div class="column1">
-        <div class="New_Arrivals">
-
-          <div class="item">
+        <div class="item">
 
           <img src="image/8.png">
-            <div class="description">
+          <div class="description">
             <h1> New Matcha green tea </h1>
             <p> Limited edition summer collection </p>
             <p> Price : $15 cad </p><br>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="image/2.jpg">
-            <div class="description">
-              <h1> Fruit tea </h1>
-              <p> Special 2019 collection </p>
-              <p> Price : $25/g cad </p><br>
-            </div>
-            </div>
-
-            <div class="item">
-              <img src="image/7.png">
-              <div class="description">
-                <h1> Red tea </h1>
-                <p> Perfect mother's day gift</p>
-                <p> Price : $20/g cad </p><br>
-              </div>
-            </div>
-
           </div>
         </div>
+
+        <div class="item">
+          <img src="image/2.jpg">
+          <div class="description">
+            <h1> Fruit tea </h1>
+            <p> Special 2019 collection </p>
+            <p> Price : $25/g cad </p><br>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="image/7.png">
+          <div class="description">
+            <h1> Red tea </h1>
+            <p> Perfect mother's day gift</p>
+            <p> Price : $20/g cad </p><br>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
 
@@ -260,31 +258,31 @@
           <div class="row">
 
 
-          <div class="info">
-            <img src="image/9.png">
-            <h1>FRUIT ICED TEA<br>QTY : 1</h1>
-            <p> $15 </p>
+            <div class="info">
+              <img src="image/9.png">
+              <h1>FRUIT ICED TEA<br>QTY : 1</h1>
+              <p> $15 </p>
+            </div>
+
+
+            <div class="items">
+              <img src="image/10.png">
+              <h1>TEA GIFT SET<br>QTY : 1</h1>
+              <p> $85 </p>
+            </div>
+
           </div>
-
-
-          <div class="items">
-            <img src="image/10.png">
-            <h1>TEA GIFT SET<br>QTY : 1</h1>
-            <p> $85 </p>
-          </div>
-
-        </div>
 
           <div class="total">
-          <h1>Total :</h1>
-          <p> $20 </p>
-        </div>
+            <h1>Total :</h1>
+            <p> $20 </p>
+          </div>
 
           <label>
             <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
           </label>
           <input type="submit" value="Continue to checkout" class="btn">
-      </div>
+        </div>
       </div>
     </div>
 
@@ -300,14 +298,15 @@
         -Customers will be offered with abundance of information regarding origin of tea leaves, its ingredients, and pick their favorite from popular recipes or customize their own blend.<br><br>
 
         The company also offers hand-crafted tea drink in local stores. Who is the company to potential customers?<br><br>
-        -	Our targeted audience will be tea lovers especially the younger generation who are looking for unique, relaxing place in which to indulge their love of tea and be able to share it with friends and make at home.<br><br>
-        -	Other potential customers may be gift buyers, tourists, socializer and people who intakes tea as health food.<br><br>
+        - Our targeted audience will be tea lovers especially the younger generation who are looking for unique, relaxing place in which to indulge their love of tea and be able to share it with friends and make at home.<br><br>
+        - Other potential customers may be gift buyers, tourists, socializer and people who intakes tea as health food.<br><br>
 
         Why might this company entice someone to purchase a product or service?<br><br>
 
-        -	As tea is growing in popularity and more people are seeking a healthier lifestyle, we believe a simple yet vibrant styling like website will be suitable for tea lovers who are looking to purchase or know more about tea.<br><br>
-        -	The company provides the local middle-class community with a wide variety of selections, elegant decorative tea accessories. Customers will be glad to pay the price premium for our products in exchange for the high quality, great taste, and sense of prestige they receive.<br><br>
-        </p>
+        - As tea is growing in popularity and more people are seeking a healthier lifestyle, we believe a simple yet vibrant styling like website will be suitable for tea lovers who are looking to purchase or know more about tea.<br><br>
+        - The company provides the local middle-class community with a wide variety of selections, elegant decorative tea accessories. Customers will be glad to pay the price premium for our products in exchange for the high quality, great taste, and
+        sense of prestige they receive.<br><br>
+      </p>
 
     </section>
 
@@ -320,53 +319,56 @@
 
     <h2>Color Palette</h2>
     <section class="Palette">
-      <div id="b"class="block">
+      <div id="b" class="block">
         <p>#f4e8da (background)</p>
       </div>
-      <div id="c"class="block">
+      <div id="c" class="block">
         <p>#9ebfac</p>
       </div>
-      <div id="d"class="block">
+      <div id="d" class="block">
         <p>#0c5045</p>
       </div>
-      <div id="e"class="block">
+      <div id="e" class="block">
         <p>#eb9c7d</p>
-    </div>
+      </div>
     </section>
 
-<h2>Imagery</h2>
+    <h2>Imagery</h2>
     <section class="Imagery">
 
-    <div id="b"class="block">
-      <img src="image/11.jpg">
-    </div>
-    <div id="c"class="block">
-      <img src="image/12.jpg">
-    </div>
-    <div id="d"class="block">
-      <img src="image/2.jpg">
-    </div>
-    <div id="e"class="block">
-      <img src="image/1.png">
-  </div>
+      <div id="b" class="block">
+        <img src="image/11.jpg">
+      </div>
+      <div id="c" class="block">
+        <img src="image/12.jpg">
+      </div>
+      <div id="d" class="block">
+        <img src="image/2.jpg">
+      </div>
+      <div id="e" class="block">
+        <img src="image/1.png">
+      </div>
 
     </section>
 
-<h2>Citations</h2>
+    <h2>Citations</h2>
     <section id="citations">
       <div class="citations">
         <h1>Citations</h1>
         <p>Matcha tea leaves. (n.d.). Retrieved from https://en.wikipedia.org/wiki/Matcha</p><br>
         <p>David's Tea. (n.d.). Retrieved Oct. 09, 2019 from https://www.davidstea.com/on/demandware.static/-/Sites/default/dwa452f2ac/images/2019/content-pages/explore/Matcha101.jpg</p> <br>
         <p>David's Tea. (n.d.). Retrieved Oct. 09, 2019 from https://www.davidstea.com/on/demandware.static/-/Sites/default/dwffb8309f/images/2019/content-pages/explore/Chai101.jpg</p> <br>
-        <p>David's Tea. (n.d.). Retrieved Oct. 09, 2019 from https://www.davidstea.com/dw/image/v2/BBXZ_PRD/on/demandware.static/-/Sites-davidstea-master-catalog/default/dwd8630d2e/productimages/902903DT01VAR0072242-902903US01VAR0055330-BI-2.jpg?sw=260&sh=260&sm=fit </p> <br>
-        <p>David's Tea. (n.d.). Retrieved Oct. 09, 2019 from https://www.davidstea.com/dw/image/v2/BBXZ_PRD/on/demandware.static/-/Sites-davidstea-master-catalog/default/dwd6cd216b/productimages/960702DT01VAR0064557-960702US01VAR0050136-BI-1.jpg?sw=450&sh=450&sm=fit</p> <br>
+        <p>David's Tea. (n.d.). Retrieved Oct. 09, 2019 from
+          https://www.davidstea.com/dw/image/v2/BBXZ_PRD/on/demandware.static/-/Sites-davidstea-master-catalog/default/dwd8630d2e/productimages/902903DT01VAR0072242-902903US01VAR0055330-BI-2.jpg?sw=260&sh=260&sm=fit </p> <br>
+        <p>David's Tea. (n.d.). Retrieved Oct. 09, 2019 from
+          https://www.davidstea.com/dw/image/v2/BBXZ_PRD/on/demandware.static/-/Sites-davidstea-master-catalog/default/dwd6cd216b/productimages/960702DT01VAR0064557-960702US01VAR0050136-BI-1.jpg?sw=450&sh=450&sm=fit</p> <br>
         <p>Peach Triquility. (n.d.). Retrieved from https://www.amazon.com/Teavana-Tranquility-Herbal-Chamomile-sachets/dp/B07GFNQ1NK</p><br>
         <p>Google Font. (n.d.). Retrieved October 9, 2019, from https://fonts.google.com/?query=seri&selection.family=DM+Serif+Text|Noto+Serif.</p>
-    </div>
+      </div>
     </section>
 
 
 
-  </body>
+</body>
+
 </html>
