@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+/* main navigation */
+.landing {
+  box-sizing: border-box;
+  height: 20vh;
+  background-color: #0b4235;
+}
+
+.main_nav {
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 3% 8%;
+  width: 100%;
+}
+
+.main_nav div {
+  flex: 1 1 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main_nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  color: #f9cbbb;
+}
+
+.logo {
+  float: center;
+  font-family: 'Righteous', cursive;
+  text-transform: lowercase;
+  font-size: 2em;
+}
+
+.left_nav a {
+  padding-right: 2em;
+}
+
+.mid_nav a {
+  margin: auto;
+}
+
+.right_nav a {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* main container */
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.container h1 {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+
+/* the three columns containing 3 items */
+.column1, .column2, .column3 {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+/* box = items */
+.box {
+  width: 45vh;
+  height: 50vh;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+.box h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin: auto;
+}
+
+.box p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin: auto;
+}
+
+/* See more details button */
+.box a {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+}
+
+.box a:hover {
+  color: #be6283;
+  border-bottom: 1px solid #b5525c;
+}
+
+/* icons */
+.fa-heart-o, .fa-shopping-cart {
+  width: 5vh;
+  height: 4vh;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.fa-heart-o:hover, .fa-shopping-cart:hover {
+  color: #be6283;
+}
+
+.img {
+  max-width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width:400px) {
+  .box {
+    width: 50%;
+  }
+
+  @media screen and (max-width:950px) {
+    .box {
+      width: 90%;
+    }
+
+    .main_nav {
+      display: inline-block;
+    }
