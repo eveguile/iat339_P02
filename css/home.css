@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* main navigation */
+
+.landing{
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #0b4235;
+}
+
+.main_nav{
+  box-sizing: border-box;
+  display: inline-flex;
+
+  justify-content: space-between;
+  padding: 3% 8% ;
+  width:100%;
+}
+
+.main_nav div{
+  flex: 1 1 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main_nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  color: #f9cbbb;
+}
+
+.logo{
+  float: center;
+  font-family: 'Righteous', cursive;
+  text-transform: lowercase;
+  font-size: 2em;
+}
+
+.left_nav a{
+  padding-right: 2em;
+}
+
+.mid_nav a{
+  margin:auto;
+}
+
+.right_nav a{
+  margin-left:auto;
+  margin-right:0;
+}
+
+/* banner */
+
+.banner{
+  padding: 0 8%;
+}
+
+.banner img{
+  
+}
