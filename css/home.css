@@ -16,7 +16,7 @@ font-family: 'Ubuntu', sans-serif;
 
 .landing{
   box-sizing: border-box;
-  height: 100vh;
+  height: 300vh;
   background-color: #0b4235;
   width: 100%;
 }
@@ -51,7 +51,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .left_nav a{
-  padding-right: 2em;
+  padding-right: 2.5em;
 }
 
 .mid_nav a{
@@ -104,8 +104,40 @@ font-family: 'Ubuntu', sans-serif;
   color: #0b4235;
   padding: .7em;
 }
+a:hover{
+  color:#ffdfdf;
+}
 
 .banner a:hover{
+  border: .1em solid #f9cbbb;
   background-color:#0b4235 ;
   color: #f9cbbb;
+}
+.AboutUs{
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  color: #f9cbbb;
+  margin-top: 10em;
+  padding-left: 4em;
+}
+.AboutUs p{
+  flex:2;
+  padding: 1em;
+  width: 40%;
+  margin-top: 3em;
+}
+.AboutUs img{
+  flex:1;
+  height: 50%;
+  width: 40%;
+  padding-right: 4em;
+}
+@media screen and (max-width:900px) {
+  .AboutUs {
+    display: block;
+  }
+  .AboutUs img {
+    display: block;
+  }
+
 }
