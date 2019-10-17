@@ -10,12 +10,15 @@ font-family: 'Righteous', cursive;
 font-family: 'Ubuntu', sans-serif;
 */
 
-/* main navigation */
+ /* ===============
+   MAIN NAVIGATION
+   =============== */
 
 .landing{
   box-sizing: border-box;
   height: 100vh;
   background-color: #0b4235;
+  width: 100%;
 }
 
 .main_nav{
@@ -23,7 +26,7 @@ font-family: 'Ubuntu', sans-serif;
   display: inline-flex;
 
   justify-content: space-between;
-  padding: 3% 8% ;
+  padding: 1.5% 8% ;
   width:100%;
 }
 
@@ -60,12 +63,49 @@ font-family: 'Ubuntu', sans-serif;
   margin-right:0;
 }
 
-/* banner */
+/* ===============
+      BANNER
+  =============== */
 
 .banner{
+  position: relative;
+  margin: auto;
   padding: 0 8%;
+  width:70%
 }
 
 .banner img{
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.banner h2{
+  position: absolute;
+  top: 47%;
+  right:0;
+  width:40%;
+  font-size: 3.1em;
+  color:#0b4235;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-stroke-width: .01px;
+  -webkit-text-stroke-color: #f9cbbb;
+}
+
+.banner a{
+  position: absolute;
+  top: 82%;
+  right:20%;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f9cbbb;
+  color: #0b4235;
+  padding: .7em;
+}
+
+.banner a:hover{
+  background-color:#0b4235 ;
+  color: #f9cbbb;
 }
