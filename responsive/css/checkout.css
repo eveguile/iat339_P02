@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu', sans-serif;
+https://www.youtube.com/watch?v=ceGcS5CAi5s contact us responsive
+https://www.youtube.com/watch?v=oAX3sliWVUE product listing
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+
+
+*/
+/*
+begin nav bar
+*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0b4235;
+  font-family: 'Ubuntu', sans-serif;
+  min-height: 17vh;
+}
+
+.logo {
+  color: #f9cbbb;
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+.shopcart{
+  font-size: 25px;
+  color: #f9cbbb;
+  float: right;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #f9cbbb;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-links a:hover {
+  color: #f9cbbb;
+  opacity: 0.9;
+}
+
+/*creating the drop down icon*/
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #f9cbbb;
+  margin: 5px;
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-links {
+    position: absolute;
+    left: 0px;
+    height: 30vh;
+    top: 17vh;
+    background-color: #0b4235;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+    transform: translateX(-100%);
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width:1024px) {}
+
+/*
+begin checkout form
+*/
+.container {
+  margin: 60px 100px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.column1 {
+  width: 35%;
+}
+/*all forms have 20px of padding*/
+.column1 .billing_info, .form-group, .column2 .payment_info, .column3 .summary{
+  padding: 20px;
+}
+.column1 .billing_info input , .form-group input{
+  width: 50%;
+  height: 28px;
+  margin-bottom: 15px;
+}
+/*
+begin column2
+*/
+.column2 {
+  width: 35%;
+}
+.column2 .form{
+  margin-top: 20px;
+}
+.column2 .payment_info h4{
+  margin-bottom: 25px;
+}
+.column2 .payment_info input {
+  width: 50%;
+  height: 28px;
+  margin-bottom: 15px;
+}
+
+.column2 .payment_info button{
+  font-size: 20px;
+}
+.column2 .icon-container{
+  border: none;
+  width: 100%;
+  height:20%;
+  font-size: 20px;
+  display:flex;
+}
+
+/*
+begin column3
+*/
+.column3 {
+  width: 30%;
+  background-color: lightgrey;
+}
+.column3 .summary p{
+  padding: 10px;
+}
+input[input=text] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid black;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/*
+continue to checkout button
+*/
+
+.btn {
+  border:1px solid black;
+  padding: 12px;
+  margin: 10px 0px;
+  width: 80%;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+span.price {
+  float: right;
+  color: black;
+}
+
+@media screen and (max-width:800px) {
+  .container{
+    flex-direction: column;
+    margin: 10px 25px;
+  }
+  .column1, .column2, .column3{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width:900px) {
+  .container{
+    flex-direction: column;
+    margin: 10px 25px;
+}
+}
