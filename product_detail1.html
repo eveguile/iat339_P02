@@ -15,44 +15,287 @@
   <title>TeaLife-Peach</title>
 </head>
 
-<body id="peachy">
-  <nav class="main_nav">
-    <div class="left_nav">
-      <a href="Product_list.html">shop</a>
-      <a href="home.html">about us</a>
-    </div>
-    <div class="mid_nav">
-      <a href="home.html">
-        <h1 class="logo">
-          tealife.
-        </h1>
-      </a>
-    </div>
-    <div class="right_nav">
-      <a href="cart.html">
-        <img src="image/cartIcon.png" alt="">
-      </a>
-    </div>
-  </nav>
-  <main>
-    <div class="product_image">
-      <img src="image/peachTea.jpg" alt="">
-    </div>
-    <div class="description">
-      <h3>peachy pichu</h3>
-      <h4>$6.99 -</h4>
-      <h5>100g</h5>
-      <img src="image/star.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Sapien et ligula ullamcorper malesuada proin libero nunc. Duis at tellus at urna condimentum mattis pellentesque. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Pellentesque nec nam aliquam sem et. Ac felis donec et odio pellentesque diam. <br><br>In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus.</p>
-      <div class="quantity buttons_added">
-        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+<body>
+  <!-- NAVIGATION STARTS -->
+  <!-- NAVIGATION STARTS -->
+  <nav>
+
+    <!--burger is the icon for the drop down menu-->
+    <div class="burger">
+      <div class="line1">
       </div>
-      <a href="#">
-        Add to Cart
-      </a>
+      <div class="line2">
+      </div>
+      <div class="line3">
+      </div>
     </div>
 
-  </main>
+    <div class="logo">
+      <h1> Tea Life </h1>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    <div class="shopcart">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </nav>
+  <!--link to script needed to create the drop down effect-->
+  <script src="js/responsive.js"></script>
+
+  <!-- NAVIGATION ENDS -->
+
+
+  <div class="info-section">
+    <p class="width-adjust-image"></p>
+
+    <img src="image/detail.jpg" alt=" " class="img-placeholder">
+
+    <div class="text-section">
+      <p class="collection-title">TOP SELLERS</p>
+      <p class="product-title">Grapefruit Diffuser</p>
+      <p class="price">$59.99</p>
+      <div class="quantity">
+        <p class="product-text">QUANTITY:</p>
+        <select class="drop-list">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <a href="shoppingcart.html" class="cart-button"> ADD TO BAG</a>
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+  <div class="product-description">
+
+    <img src="img/grapefruit_descrip_img.png" class="deatil-image" alt="burning candle with glasses and opened magazine">
+    <img src="img/grapefruit_descrip_banner.png" class="banner-image" alt="reed diffuser with two plants on a platform beside the window" />
+
+    <div class="text-descrip-section">
+      <p class="section-title">Details</p>
+      <p class="product-descrip">Pink pomelo grapefruit and watery green nuances are blended with lily of the valley and coriander blossom. Nest Fragrances Reed Diffusers are carefully crafted with the highest quality fragrance oils and are designed
+        to continuously fill your home with a lush, memorable fragrance. To intensify the fragrance, occasionally flip the reeds over.</p>
+      <div id="descrip-list">
+        <ul>
+          <li>Lasts up to 3 months</li>
+          <li>5.9 oz.</li>
+          <li>Imported</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="review-section">
+    <div class="review-title">
+      <p class="width-adjust-left"></p>
+      <h2>REVIEWS</h2>
+      <p class="width-adjust-right"></p>
+      <a href="#" class="viewmorelink">view more </a>
+    </div>
+    <div class="review-row">
+      <div class="user-comment">
+        <div class="profile-row">
+          <img src="img/profile-veronica.png" alt="a girl turning her head toward to camera on a subway platform">
+          <div class="user-info">
+            <p class="user-name">Veronica899</p>
+            <p class="post-hour">POSTED 1 DAY AGO</p>
+            <p class="review-rate">★★★★☆</p>
+          </div>
+        </div>
+        <p class="descrip">Such a great, refreshing summer fragrance! I have this in my bedroom, it is not too overwhelming, but I can smell it through the whole house!</p>
+      </div>
+      <div class="user-comment">
+        <div class="profile-row">
+          <img src="img/profile-lily.png" alt="a girl lower her head, showing her side face with plane background">
+          <div class="user-info">
+            <p class="user-name">lilypad</p>
+            <p class="post-hour">POSTED 4 DAYS AGO</p>
+            <p class="review-rate">★★★★☆</p>
+          </div>
+        </div>
+        <p class="descrip">Long lasting and not over powering, this is a beautiful scent that will have your guests asking how your home smells so wonderful.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="recommendation">
+    <h2>RECOMMENDATION</h2>
+
+
+
+  </div>
+  <section class="product">
+
+    <div class="productcontainer">
+      <div class="item">
+        <img src="img/product04.jpg" alt="COTTOM POPLIN">
+      </div>
+      <div class="words">
+        <h6>COTTOM POPLIN
+        </h6>
+        <p class="recommend-price">$34.99
+        </p>
+
+      </div>
+      <div class="addtocart-products">
+        <a href="shoppingcart.html" class="add-button-productlist">ADD TO BAG</a>
+
+      </div>
+    </div>
+
+    <div class="productcontainer">
+      <div class="item">
+        <img src="img/product05.jpg" alt="FLEUR FANTOME">
+      </div>
+      <div class="words">
+        <h6>FLEUR FANTOME
+        </h6>
+        <p class="recommend-price">$34.99
+        </p>
+
+      </div>
+
+      <div class="addtocart-products">
+        <a href="shoppingcart.html" class="add-button-productlist">ADD TO BAG</a>
+
+      </div>
+    </div>
+
+    <div class="productcontainer">
+      <div class="item">
+        <img src="img/product06.jpg" alt="BIBLIOTHEQUE">
+      </div>
+      <div class="words">
+        <h6>BIBLIOTHEQUE
+        </h6>
+        <p class="recommend-price">$34.99
+        </p>
+
+      </div>
+      <div class="addtocart-products">
+        <a href="shoppingcart.html" class="add-button-productlist">ADD TO BAG</a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- FOOTER STARTS -->
+  <div id="footer" role="group">
+
+    <ul class="cust-serv">
+      <li class="list-title">CUSTOMER SERVICE</li>
+      <li class="list-item"><a href="contact.html" class="intextlink">Contact Us</a></li>
+      <li class="list-item"><a href="return_policy.html" class="intextlink">Return & Refund Policy</a></li>
+      <li class="list-item"><a href="return_policy.html" class="intextlink">Usage Instruction</a></li>
+    </ul>
+
+    <ul class="about-us">
+      <li class="list-title">ABOUT US</li>
+      <li class="list-item"><a href="about.html" class="intextlink">Our Company</a></li>
+      <li class="list-item"><a href="about.html" class="intextlink">Store Location</a></li>
+    </ul>
+
+    <ul class="social-media">
+      <li class="list-title">PROJECT LINKS</li>
+      <li class="list-item"><a href="styleguide.html" class="intextlink">Style Guide</a></li>
+      <li class="list-item"><a href="citation.html" class="intextlink">Citation</a></li>
+      <li class="list-item"><a href="https://github.com/kokonut-ca/IAT339_P02/tree/master/CHALEUR" class="intextlink">Git Repository</a></li>
+    </ul>
+
+
+    <div class="email">
+      <p class="list-title">SIGN UP FOR MORE UPDATES</p>
+      <form> <input type="text" name="Text Input Field" value="Email Address"> </form>
+      <a href="#" class="sub-button" role="button">SUBMIT</a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER ENDS -->
+
+  <!-- DROPDOWN MENU STARTS -->
+
+  <div id="mobile-nav" class="mobile-drop-down-menu" role="menu">
+    <a href="#" class="closeBn" onclick="closeNav()">&times;</a>
+
+    <div class="drop-down-menu-category">
+      <a href="diffuser_collection.html">NEW</a>
+      <a href="candle_collection.html">FAVOURITES</a>
+      <a href="diffuser_collection.html">COLLECTIONS</a>
+      <a href="candle_collection.html">CANDLES</a>
+      <a href="diffuser_collection.html">DIFFUSERS</a>
+      <a href="candle_collection.html">ESSENTIAL OIL</a>
+    </div>
+
+    <div class="drop-down-menu-footer">
+      <a href="contact.html">CONTACT</a>
+      <a href="return_policy.html">RETURN POLICY</a>
+      <a href="about.html">ABOUT US</a>
+    </div>
+
+  </div>
+
+  <div id="searchpage" class="search">
+    <a href="#" class="closesch" onclick="closeSearch()">&times;</a>
+
+    <div class="searchcontent">
+      <div class="searchtitle">
+        <h1>SEARCH</h1>
+      </div>
+
+      <div class="drop-search">
+        <input class="searchbar" type="text" name="searchbarline" placeholder="Search">
+        <img src="img/searchbig.png" alt="search" class="search-img" role="button">
+      </div>
+
+      <div class="hotsearch">
+        <span onclick="gotocandle()">candles</span>
+        <span onclick="gotocontact()">contact</span>
+        <span onclick="gotoreturn()">return</span>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/navigation.js"></script>
+
+  <!-- DROPDOWN MENU ENDS -->
+
+
 </body>
 
 </html>
