@@ -1,0 +1,81 @@
+*{
+  font-family: 'Times','Lato',sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.banner-img{
+  height: auto;
+  width:40%;
+}
+
+.banner{
+  height: 83vh;
+  background-color: #0b4235;
+  /* padding-top: 1em; */
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
+  flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.quote-on-banner{
+  text-align: left;
+  color: white;
+  position: absolute;
+top: 20%;
+left: 60%;
+transform: translate(-50%, -50%);
+font-size: 5em;
+width: 70%;
+text-transform: uppercase;
+font-family: 'Open Sans', sans-serif;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 3.5px;
+-webkit-text-stroke-color: #fff;
+
+}
+
+@media (max-width:60em){
+.quote-on-banner{
+  top: 30%;
+  left: 50%;
+  font-size: 4em;
+  -webkit-text-stroke-width: 2.5px;
+}
+
+.banner-img{
+
+  width:55%;
+
+
+}
+}
+
+@media (max-width:40em){
+
+  .banner-img{
+
+    width:75%;
+
+
+  }
+
+  .quote-on-banner{
+    top: 45%;
+    font-size: 3em;
+    -webkit-text-stroke-width: 1.5px;
+  }
+
+}
