@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" href="css/productlist.css">
   <link rel="stylesheet" href="css/cart.css">
   <title>TeaLife</title>
 </head>
+
 <body>
   <!-- NAVIGATION STARTS -->
   <nav>
@@ -23,71 +26,118 @@
     </div>
 
     <div class="logo">
-      <h1> Tea Life </h1>
+      <h1> BeSimple. </h1>
     </div>
 
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="home.html">About Us</a></li>
+      <li><a href="productlist.html">Products</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
     </ul>
 
     <div class="shopcart">
       <i class="fas fa-shopping-cart"></i>
     </div>
   </nav>
+
   <div class="shoppingcart-container">
-  <div class="shoppingcart-title">
-    <h1>ITEMS IN YOUR BAG</h1>
-  </div>
-
-  <div class="shoppingcart-items">
-
-    <img class="shoppingcart-items-img" src="image/detail.jpg" alt="NEST Camille">
-
-<div class="shoppingcart-items-word">
-    <div class="shoppingcart-items-word1">
-
-        <h3 class="shoppingcart-items-title">CERAMIC WAVE BOWL</h3>
-        <span class="shoppingcart-items-price">$12.99</span>
-       <input class="shoppingcart-items-number" type="number" name="itemnumbers" value="1">
-       <h3 class="shoppingcart-items-totleprice">$12.99</h3>
-     </div>
-
-    <div class="shoppingcart-items-word2">
-      <a class="shoppingcart-items-remove" href="#">remove</a>
-    </div>
-  </div>
-  </div>
-
-
-
-  <div class="shoppingcart-total">
-    <div class="shoppingcart-total-heading">
-      <h2 class="shoppingcart-total-head bag"> Bag Subtotal</h2>
-      <h2 class="shoppingcart-total-head ship">Shipment Fee</h2>
-      <h2 class="shoppingcart-total-head tax">Estimated Tax</h2>
-      <h2 class="shoppingcart-total-head total">Total</h2>
+    <div class="shoppingcart-title">
+      <h1>ITEMS IN YOUR BAG</h1>
     </div>
 
-    <div class="shoppingcart-total-pricing">
-      <h2 class="shoppingcart-total-price bag"> $12.99</h2>
-      <h2 class="shoppingcart-total-price ship">$3.00</h2>
-      <h2 class="shoppingcart-total-price tax">$1.39</h2>
-      <h2 class="shoppingcart-total-price total">$17.38</h2>
+    <div class="shoppingcart-items">
+
+      <img class="shoppingcart-items-img" src="image/detail.jpg" alt="NEST Camille">
+
+      <div class="shoppingcart-items-word">
+        <div class="shoppingcart-items-word1">
+
+          <h3 class="shoppingcart-items-title">CERAMIC WAVE BOWL</h3>
+          <span class="shoppingcart-items-price">$12.99</span>
+          <input class="shoppingcart-items-number" type="number" name="itemnumbers" value="1">
+          <h3 class="shoppingcart-items-totleprice">$12.99</h3>
+        </div>
+
+        <div class="shoppingcart-items-word2">
+          <a class="shoppingcart-items-remove" href="#">remove</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="shoppingcart-total">
+      <div class="shoppingcart-total-heading">
+        <h2 class="shoppingcart-total-head bag"> Bag Subtotal</h2>
+        <h2 class="shoppingcart-total-head ship">Shipment Fee</h2>
+        <h2 class="shoppingcart-total-head tax">Estimated Tax</h2>
+        <h2 class="shoppingcart-total-head total">Total</h2>
+      </div>
+
+      <div class="shoppingcart-total-pricing">
+        <h2 class="shoppingcart-total-price bag"> $12.99</h2>
+        <h2 class="shoppingcart-total-price ship">$3.00</h2>
+        <h2 class="shoppingcart-total-price tax">$1.39</h2>
+        <h2 class="shoppingcart-total-price total">$17.38</h2>
+      </div>
+    </div>
+    <div class="continueshopping">
+
+
+
+    </div>
+    <div class="shoppingcart-checkout">
+
+      <a href="checkout.html" class="checkout-button">CHECK OUT</a>
+      <a href="productlist.html" <a onclick="goBack()" class="continuelink">CONTINUE SHOPPING</a></a>
+
     </div>
   </div>
-  <div class="continueshopping">
 
 
 
-</div>
-  <div class="shoppingcart-checkout">
+  <!--begin footer-->
+  <div class="footer">
+    <div class="inner-footer">
 
-    <a href="payment.html"  class="checkout-button">CHECK OUT</a>
-    <a onclick="goBack()" class="continuelink">CONTINUE SHOPPING</a>
+      <div class="footer-items">
+        <h4> BeSimple. </h4>
+        <p> This website sells affordable modern home decor products</p>
+      </div>
+      <div class="footer-items">
+        <div class="contact">
+          <h5> Contact Us </h5>
+          <span><i class="fas fa-envelope"></i> info@gmail.com</span>
+          <i class="fas fa-phone"></i>604-232-3421
+        </div>
+      </div>
+
+      <div class="footer-items">
+        <div class="social-media">
+          <h5> Social Media </h5>
+          <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+
+      <div class="footer-items">
+        <h5> Quick Links </h5>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; Designed by Jenny Situ and Evelyn Zhang
+    </div>
 
   </div>
 </body>
+
 </html>

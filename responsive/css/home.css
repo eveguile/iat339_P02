@@ -175,7 +175,6 @@ margin-right: 0;
 
   .handmade{
     display: none;
-
   }
 
 
@@ -197,15 +196,13 @@ margin-right: 0;
   }
 
 
+
 }
 
 @media (max-width:40em){
 
   .banner-img{
-
     width:75%;
-
-
   }
 
   .quote-on-banner{
