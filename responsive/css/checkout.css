@@ -33,7 +33,9 @@ nav {
   letter-spacing: 5px;
   font-size: 18px;
 }
-
+.logo h1, .shopcart i{
+    color:#f9cbbb;
+}
 .shopcart {
   font-size: 25px;
   color: #f9cbbb;
@@ -266,15 +268,15 @@ span.price {
 }
 
 /*
-    begin footer
-    */
+  begin footer
+  */
 .footer {
   width: 100%;
   padding: 40px 20px 0px 90px;
   text-align: justify;
   box-sizing: border-box;
   display: block;
-  background-color: lightgrey;
+  color:#0b4235;
 }
 
 .inner-footer {
@@ -293,24 +295,26 @@ span.price {
   padding: 0px 15px;
   margin: 0px;
   box-sizing: border-box;
+  font-size: 13px;
+  opacity: 0.9;
 }
 
 .footer-items h5 {
   text-align: justify;
-  font-size: 10px;
+
 }
 
 .footer-items p {
   color: grey;
   text-align: justify;
   line-height: 25px;
-  font-size: 12px;
+  font-size: 14px;
   width: 80%;
 }
 
 .footer-items ul {
   list-style: none;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .footer-items ul li, a {
@@ -318,18 +322,18 @@ span.price {
   margin: 10px 0px;
   color: black;
 }
-
 .footer-items a:hover {
   border-bottom: 1px solid black;
 }
 
+
 .footer-items h5 {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .footer-items h4 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .contact i {
@@ -342,7 +346,7 @@ span.price {
 
 .social-media i {
   margin: 10px 10px 10px 10px;
-  font-size: 15px;
+  font-size: 20px;
   flex-direction: row;
   color: black;
 }
@@ -351,8 +355,7 @@ span.price {
   width: 100%;
   padding: 10px 0px;
   margin: 0px;
-  background-color: lightgrey;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 

@@ -1,170 +1,146 @@
-*{
-  font-family: 'Times','Lato',sans-serif;
+* {
+  font-family: 'Times', 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-
 }
-
-.banner-img{
+.logo h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+.banner-img {
   height: auto;
-  width:40%;
+  width: 40%;
 }
 
-.banner{
+.banner {
   height: 83vh;
   background-color: #0b4235;
   /* padding-top: 1em; */
   -ms-display: flex;
   -webkit-display: flex;
   display: flex;
-
   -ms-flex-wrap: wrap;
-  -webkit-flex-wrap:wrap;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
-
   align-items: center;
-
 }
 
-.quote-on-banner{
+.quote-on-banner {
   text-align: left;
   color: white;
   position: absolute;
-top: 20%;
-left: 60%;
-transform: translate(-50%, -50%);
-font-size: 5em;
-width: 70%;
-text-transform: uppercase;
-font-family: 'Open Sans', sans-serif;
--webkit-text-fill-color: transparent;
--webkit-text-stroke-width: 3.5px;
--webkit-text-stroke-color: #fff;
-
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  width: 70%;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: #fff;
 }
 
-.new-title{
+.new-title {
   padding-top: 2em;
-  width:82%;
+  width: 82%;
   margin: auto;
   font-family: sans-serif;
 }
 
-.new-arrival{
-background-color: white;
+.new-arrival {
+  background-color: white;
   width: 100%;
   max-width: 1240px;
-margin: auto;
--ms-display: flex;
--webkit-display: flex;
-display: flex;
-
+  margin: auto;
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex;
   position: relative;
-
   height: auto;
   margin-top: 4rem;
 }
-.new-arrival-des{
+
+.new-arrival-des {
   background-color: white;
   padding-left: 15%;
   padding-right: 15%;
   height: 80%;
   margin: auto;
-
 }
 
-
-.new-arrival-des p{
+.new-arrival-des p {
   font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.4rem;
-
   color: #8D8D8D;
-
   letter-spacing: 0.04rem;
-
   margin-top: 4%;
   max-width: 500px;
-
 }
 
-.new-arrival-des h1{
-
-  font-size:1.2rem;
+.new-arrival-des h1 {
+  font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: 0.06rem;
 }
 
-.new-arrival-img{
-
-margin-right: 0;
+.new-arrival-img {
+  margin-right: 0;
 }
 
-.new-arrival-img img{
+.new-arrival-img img {
   width: 100%;
-
-
   /*overflow: hidden;*/
 }
 
-.viewmore{
+.viewmore {
   margin-top: 2.6rem;
 }
 
-.viewmore-button{
-    padding: 8px 25px;
-    font-size: 0.666rem;
-    letter-spacing: 2px;
-    text-decoration: none;
-    background-color: transparent;
-    color: #000;
-
-    margin-top: 60px;
-
-    border: solid 1px #000;
-
-
+.viewmore-button {
+  padding: 8px 25px;
+  font-size: 0.666rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #000;
+  margin-top: 60px;
+  border: solid 1px #000;
 }
 
-.viewmore-button:hover{
-   background: #000;
-   color: #FFF;
+.viewmore-button:hover {
+  background: #000;
+  color: #FFF;
 }
 
-@media (max-width:60em){
-.quote-on-banner{
-  top: 30%;
-  left: 50%;
-  font-size: 4em;
-  -webkit-text-stroke-width: 2.5px;
-}
+@media (max-width:60em) {
+  .quote-on-banner {
+    top: 30%;
+    left: 50%;
+    font-size: 4em;
+    -webkit-text-stroke-width: 2.5px;
+  }
 
-.banner-img{
+  .banner-img {
+    width: 55%;
+  }
 
-  width:55%;
-}
-
-.new-arrival{
+  .new-arrival {
     width: 100%;
     display: block;
     position: relative;
   }
 
-  .new-arrival-des{
-
-    padding:5% 15% 10% 15%;
-
+  .new-arrival-des {
+    padding: 5% 15% 10% 15%;
     margin-top: 0;
-
   }
 
-
-  .new-arrival-des p{
+  .new-arrival-des p {
     line-height: 1.6rem;
     letter-spacing: 0.04rem;
     margin-top: 2%;
@@ -173,42 +149,39 @@ margin-right: 0;
     text-align: center;
   }
 
-  .handmade{
+  .handmade {
     display: none;
   }
 
-
-
-  .new-arrival-des h1{
+  .new-arrival-des h1 {
     font-size: 1.3rem;
     text-align: center;
   }
 
-  .new-arrival-img{
-
-  height: 300px;
-  overflow: hidden;
+  .new-arrival-img {
+    height: 300px;
+    overflow: hidden;
   }
 
-  .new-arrival-img img{
+  .new-arrival-img img {
     overflow: hidden;
     padding-bottom: 4em;
   }
-
-
-
 }
 
-@media (max-width:40em){
-
-  .banner-img{
-    width:75%;
+@media (max-width:40em) {
+  .banner-img {
+    width: 75%;
   }
 
-  .quote-on-banner{
+  .quote-on-banner {
     top: 45%;
     font-size: 3em;
     -webkit-text-stroke-width: 1.5px;
+  }
+
+  .viewmore, .new-title {
+    text-align: center;
   }
 
 }

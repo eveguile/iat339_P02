@@ -27,6 +27,9 @@ nav {
   font-family: 'Ubuntu', sans-serif;
   min-height: 17vh;
 }
+.logo h1, .shopcart i{
+    color:#f9cbbb;
+}
 
 .logo {
   color: #f9cbbb;
@@ -298,7 +301,7 @@ styling social icons
   text-align: justify;
   box-sizing: border-box;
   display: block;
-  background-color: lightgrey;
+  color:#0b4235;
 }
 
 .inner-footer {
@@ -317,11 +320,13 @@ styling social icons
   padding: 0px 15px;
   margin: 0px;
   box-sizing: border-box;
+  font-size: 13px;
+  opacity: 0.9;
 }
 
 .footer-items h5 {
   text-align: justify;
-  font-size: 10px;
+
 }
 
 .footer-items p {
@@ -334,7 +339,7 @@ styling social icons
 
 .footer-items ul {
   list-style: none;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .footer-items ul li, a {
@@ -349,11 +354,11 @@ styling social icons
 
 .footer-items h5 {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footer-items h4 {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .contact i {
@@ -375,8 +380,7 @@ styling social icons
   width: 100%;
   padding: 10px 0px;
   margin: 0px;
-  background-color: lightgrey;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 

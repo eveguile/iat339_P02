@@ -1,5 +1,5 @@
 *{
-  font-family: 'Times','Lato',sans-serif;
+  /*font-family: 'Times','Lato',sans-serif;*/
   margin: 0;
   padding: 0;
 }
@@ -9,6 +9,9 @@
 body{
 }
 
+.logo, .nav-links a{
+  font-family: 'Ubuntu', sans-serif;
+}
 
 
 .info-section{
@@ -497,7 +500,7 @@ display: none;
   text-align: justify;
   box-sizing: border-box;
   display: block;
-  background-color: lightgrey;
+  color:#0b4235;
 }
 
 .inner-footer {
@@ -516,11 +519,13 @@ display: none;
   padding: 0px 15px;
   margin: 0px;
   box-sizing: border-box;
+  font-size: 13px;
+  opacity: 0.9;
 }
 
 .footer-items h5 {
   text-align: justify;
-  font-size: 10px;
+
 }
 
 .footer-items p {
@@ -533,7 +538,7 @@ display: none;
 
 .footer-items ul {
   list-style: none;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .footer-items ul li, a {
@@ -548,11 +553,11 @@ display: none;
 
 .footer-items h5 {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .footer-items h4 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .contact i {
@@ -565,7 +570,7 @@ display: none;
 
 .social-media i {
   margin: 10px 10px 10px 10px;
-  font-size: 10px;
+  font-size: 20px;
   flex-direction: row;
   color: black;
 }
@@ -574,8 +579,7 @@ display: none;
   width: 100%;
   padding: 10px 0px;
   margin: 0px;
-  background-color: lightgrey;
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
 }
 
