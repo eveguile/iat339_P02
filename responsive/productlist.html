@@ -16,8 +16,8 @@
 <!--start of body-->
 
 <body>
-  <nav>
 
+  <nav>
     <!--burger is the icon for the drop down menu-->
     <div class="burger">
       <div class="line1">
@@ -29,7 +29,9 @@
     </div>
 
     <div class="logo">
-      <a href="home.html"><h1>BeSimple.</h1></a>
+      <a href="home.html">
+        <header>BeSimple.</header>
+      </a>
     </div>
 
     <ul class="nav-links">
@@ -40,113 +42,127 @@
     </ul>
 
     <div class="shopcart">
-      <a href="home.html"><i class="fas fa-shopping-cart"></i></a>
+      <a href="home.html"><i class="fas fa-shopping-bag"></i></a>
     </div>
   </nav>
   <!--link to script needed to create the drop down effect-->
   <script src="js/responsive.js"></script>
 
   <!--All the products, one section, and each class consist of product item,img, and info-->
-  <h1>Featured Products</h1>
+
+  <ul class="drop-down">
+    <h1>SHOP</h1>
+    <ul>
+      <h2>SHOP BY:</h2>
+      <li><a href="">PRODUCTS<i class="fas fa-chevron-down"></i>
+        <ul>
+          <li><a href="home.html">Home Decor</a></li>
+          <li><a href="home.html">Kitchen</a></li>
+          <li><a href="productlist.html">Living Room</a></li>
+        </ul>
+      </li>
+    </ul>
+  </ul>
+
 
   <section class="product">
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-7.jpg" alt="">
+        <img src="image/3-7.jpg" alt="blue-plate">
       </div>
       <div class="product-info">
-        <h2>7.3" Cermaic Dinner Plate</h2>
-        <h3>$20</h3>
+        <h3>7.3" Cermaic Dinner Plate</h3>
+        <h4>$20</h4>
       </div>
       <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-8.jpg" alt="">
+        <img src="image/3-8.jpg" alt="white-bottle">
       </div>
       <div class="product-info">
-        <h2>7" White Steel Bottle</h2>
-        <h3>$25</h3>
-      </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
-    </div>
-
-    <div class="product-item">
-      <div class="product-img">
-        <img src="image/3-9.jpg" alt="">
-      </div>
-      <div class="product-info">
-        <h2>7.3" Cermaic White Plate</h2>
-        <h3>$15</h3>
+        <h3>7" White Steel Bottle</h3>
+        <h4>$25</h4>
       </div>
       <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-1.jpg" alt="">
+        <img src="image/3-9.jpg" alt="white-plate">
       </div>
       <div class="product-info">
-        <h2>Cermaic Mug 15oz</h2>
-        <h3>$15</h3>
+        <h3>7.3" Cermaic White Plate</h3>
+        <h4>$15</h4>
       </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-2.jpg" alt="">
+        <img src="image/3-1.jpg" alt="ceramic-mug">
       </div>
       <div class="product-info">
-        <h2>7" Kettle</h2>
-        <h3>$20</h3>
+        <h3>Cermaic Mug 15oz</h3>
+        <h4>$15</h4>
       </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-3.jpg" alt="">
+        <img src="image/3-2.jpg" alt="kettle">
       </div>
       <div class="product-info">
-        <h2>6.2" Kettle</h2>
-        <h3>$25</h3>
+        <h3>7" Kettle</h3>
+        <h4>$20</h4>
       </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/detail.jpg" alt="">
+        <img src="image/3-3.jpg" alt="tall-Kettle">
       </div>
       <div class="product-info">
-        <h2>Ceramic wave rice bowl</h2>
-        <h3>$25</h3>
+        <h3>6.2" Kettle</h3>
+        <h4>$25</h4>
       </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-5.jpg" alt="">
+        <img src="image/detail.jpg" alt="rice-bowl">
       </div>
       <div class="product-info">
-        <h2>8" Bamboo Dining Set</h2>
-        <h3>$20</h3>
+        <h3>Ceramic wave rice bowl</h3>
+        <h4>$25</h4>
       </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a>
     </div>
 
     <div class="product-item">
       <div class="product-img">
-        <img src="image/3-6.jpg" alt="">
+        <img src="image/3-5.jpg" alt="Dining-set">
       </div>
       <div class="product-info">
-        <h2>8" Bamboo Plate</h2>
-        <h3>$30</h3>
+        <h3>8" Bamboo Dining Set</h3>
+        <h4>$20</h4>
       </div>
-        <a href="detail.html"><button type="button">SEE DETAILS</button></a>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a>
+    </div>
+
+    <div class="product-item">
+      <div class="product-img">
+        <img src="image/3-6.jpg" alt="Bamboo-plate">
+      </div>
+      <div class="product-info">
+        <h3>8" Bamboo Plate</h3>
+        <h4>$30</h4>
+      </div>
+      <a href="detail.html"><button type="button">SEE DETAILS</button></a>
     </div>
   </section>
 
@@ -155,12 +171,12 @@
     <div class="inner-footer">
 
       <div class="footer-items">
-        <h4> BeSimple </h4>
+        <h5> BeSimple. </h5>
         <p> This website sells affordable modern home decor products</p>
       </div>
       <div class="footer-items">
         <div class="contact">
-          <h5> Contact Us </h5>
+          <h6> Contact Us </h6>
           <span><i class="fas fa-envelope"></i> info@gmail.com</span>
           <i class="fas fa-phone"></i>604-232-3421
         </div>
@@ -168,7 +184,7 @@
 
       <div class="footer-items">
         <div class="social">
-          <h5> Social Media </h5>
+          <h6> Social Media </h6>
           <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
           <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
           <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
@@ -177,12 +193,12 @@
 
 
       <div class="footer-items">
-        <h5> Quick Links </h5>
+        <h6> Quick Links </h6>
         <ul>
           <li><a href="home.html">Home</a></li>
-          <li><a href="home.html">About Us</a></li>
           <li><a href="productlist.html">Products</a></li>
           <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="contact_us.html">Citations</a></li>
         </ul>
       </div>
     </div>

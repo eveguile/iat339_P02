@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=oAX3sliWVUE product listing
 <i class="fab fa-twitter"></i>
 <i class="fab fa-instagram"></i>
 */
+
 /*begin nav bar*/
 nav {
   display: flex;
@@ -31,7 +32,7 @@ nav {
 }
 
 .shopcart {
-  font-size: 25px;
+  font-size: 1.5625em;
   color: #f9cbbb;
   float: right;
 }
@@ -41,7 +42,7 @@ nav {
   float: left;
   justify-content: space-around;
   width: 30%;
-  font-size: 14px;
+  font-size: 0.875em;
   text-decoration: none;
   list-style: none;
 }
@@ -52,9 +53,10 @@ nav {
   list-style: none;
 }
 
-.nav-links a:hover {
+.nav-links a:hover{
   color: #f9cbbb;
   opacity: 0.9;
+
 }
 
 /*creating the drop down logo*/
@@ -65,12 +67,12 @@ nav {
 
 .burger div {
   width: 25px;
-  height: 3px;
+  height: 0.47vh;
   background-color: #f9cbbb;
   margin: 5px;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:840px) {
   body {
     overflow-x: hidden;
   }
@@ -94,22 +96,70 @@ nav {
     display: block;
   }
 }
-.logo h1, .shopcart i{
-    color:#f9cbbb;
+
+.logo header, .shopcart i {
+  color: #f9cbbb;
 }
+
 .nav-active {
   transform: translateX(0%);
 }
 
 /*
-  begin product list
+  begin drop down menu
   */
-h1 {
-  font-size: 30px;
+
+.drop-down {
+  margin: 0% 10% 12% 10%;
+}
+.drop-down h1 {
+  font-size: 1.875em;
   text-align: center;
-  margin: 10% 0;
+  margin: 10% 0% 0% 0%;
+}
+.drop-down ul h2{
+  font-size: 1.25em;
 }
 
+.drop-down ul, li {
+  list-style: none;
+}
+
+.drop-down ul a, .drop-down li a {
+  display: block;
+  font-size: 0.8em;
+}
+
+.drop-down ul li {
+  position: relative;
+  float: left;
+}
+
+.drop-down ul li:hover {
+  border-bottom: 1px solid black
+}
+
+.drop-down ul ul {
+  display: none;
+  position: absolute;
+}
+
+.drop-down ul ul li {
+  width: 150px;
+}
+
+.drop-down ul li:hover> ul {
+  display: block;
+}
+
+/*
+  end drop down menu
+  */
+
+
+/*
+  begin product list
+  */
 .product {
   margin: 10% 8% 8% 8%;
   display: flex;
@@ -126,11 +176,15 @@ h1 {
   background-color: #fff;
   box-shadow: 0px 0px 1px 0px rgb(0, 0, 0, .25);
 }
-.product-item h3{
+
+.product-item h3 {
+  margin-top: 10px;
   font-family: 'Open Sans', sans-serif;
 }
-.product-item h2{
-font-family: 'Ubuntu', sans-serif;
+
+.product-item h4 {
+  margin-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .product-img img {
@@ -148,23 +202,27 @@ font-family: 'Ubuntu', sans-serif;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: left;
-  font-size: 12px;
+  font-size: 0.75em;
 }
-.product-item a{
+
+.product-item a {
   position: relative;
   margin-top: 7%;
   font-family: 'Ubuntu', sans-serif;
   float: right;
   opacity: 1;
 }
-.product-item button{
+
+.product-item button {
+  background-color: transparent;
   height: 35px;
   width: 120px;
-  font-size: 14px;
+  font-size: 0.625em;
 }
-.product-item button:hover{
-  background-color:black;
-  color:white;
+
+.product-item button:hover {
+  background-color: black;
+  color: white;
 }
 
 @media screen and (max-width:920px) {
@@ -172,15 +230,31 @@ font-family: 'Ubuntu', sans-serif;
     flex: 1 35%;
     margin: 30px;
   }
+
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:740px) {
   .product-item {
-    flex: 1 100%;
+    flex: 2 75%;
     margin: 30px;
+  }
+
+  .product-item .product-info h4 {
+    font-size: 0.9375em;
   }
 }
 
+/*
+  begin citations
+  */
+  .citations{
+    margin: 10%;
+    width: 85%;
+  }
+
+  /*
+    end citations
+    */
 /*
   begin footer
   */
@@ -190,7 +264,7 @@ font-family: 'Ubuntu', sans-serif;
   text-align: justify;
   box-sizing: border-box;
   display: block;
-  color:#0b4235;
+  color: #0b4235;
 }
 
 .inner-footer {
@@ -213,17 +287,12 @@ font-family: 'Ubuntu', sans-serif;
   opacity: 0.9;
 }
 
-.footer-items h5 {
-  text-align: justify;
-
-}
-
 .footer-items p {
   color: grey;
-  text-align: justify;
+  text-align: left;
   line-height: 25px;
   font-size: 14px;
-  width: 80%;
+  width: 90%;
 }
 
 .footer-items ul {
@@ -236,18 +305,18 @@ font-family: 'Ubuntu', sans-serif;
   margin: 10px 0px;
   color: black;
 }
+
 .footer-items a:hover {
   border-bottom: 1px solid black;
 }
 
-
-.footer-items h5 {
-  text-transform: uppercase;
-  font-size: 15px;
+.footer-items h5,.footer-items h6  {
+  font-size: 0.9375em;
 }
 
-.footer-items h4 {
-  font-size: 15px;
+.footer-items h6 {
+  text-align: justify;
+  text-transform: uppercase;
 }
 
 .contact i {
@@ -258,9 +327,9 @@ font-family: 'Ubuntu', sans-serif;
   display: block;
 }
 
-.social-media i {
+.social i {
   margin: 10px 10px 10px 10px;
-  font-size: 20px;
+  font-size: 1.25em;
   flex-direction: row;
   color: black;
 }
@@ -269,7 +338,7 @@ font-family: 'Ubuntu', sans-serif;
   width: 100%;
   padding: 10px 0px;
   margin: 0px;
-  font-size: 15px;
+  font-size: 0.9375em;
   text-align: center;
 }
 
@@ -282,6 +351,10 @@ font-family: 'Ubuntu', sans-serif;
   .footer-bottom {
     text-align: left;
   }
+
+  .drop-down ul {
+    margin: 5% 10% 35% 5%;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -292,6 +365,11 @@ font-family: 'Ubuntu', sans-serif;
 
   .footer-bottom {
     text-align: left;
-    font-size: 10px;
+    font-size: 0.625em;
+  }
+
+  .drop-down h1 {
+    margin: 10% 10% 0% 5%;
+    text-align: left;
   }
 }
