@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>P01-W2</title>
+    <link rel="stylesheet" href="css/1.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+13px&display=swap" rel="stylesheet">
+  <body>
+    <div id="banner">
+      <div>
+        <h2>Kanna's tea house</h2>
+        <h1>Style <br>Guide.</h1>
+      </div>
+      <ul class="navigation">
+        <li><a href="#style_guide">elements</a></li>
+        <li><a href="#">product listing</a></li>
+        <li><a href="#">checkout page</a></li>
+        <li><a href="#branding_ideas">branding ideas</a></li>
+        <li><a href="#brand_components">branding components</a></li>
+        <li><a href="#citation">citation</a></li>
+      </ul>
+    </div>
+    <section id="style_guide" class="section">
+      <section id="interactive">
+        <h2>Interactive <br>Elements</h2>
+        <section class="elements">
+          <div>
+            <h3>In-text Link</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <a id="intextLink" class="intext_link" href="#">In-text link</a>
+            <h4>Code:</h4>
+            <code>&lt;a class="intext_link" href="#">In-text link&lt;/a></code>
+          </div>
+        </section>
+
+        <section class="elements">
+          <div>
+            <h3>Navigation Link</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <ul class="navigation" id="nav_example">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Home</a></li>
+            </ul>
+            <h4>Code:</h4>
+            <code>&lt;a class="nav_link" href="#">Default Button&lt;/a></code>
+          </div>
+        </section>
+
+        <section class="elements">
+          <div>
+            <h3>Submit/Reset Buttons</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+            <h4>Code:</h4>
+            <code>
+              &lt;button type="submit" value="Submit">Submit&lt;/button><br>
+              &lt;button type="reset" value="Reset">Reset&lt;/button>
+            </code>
+          </div>
+        </section>
+
+        <section class="elements">
+          <div>
+            <h3>Text Input Field With Label</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <form>
+              <label for="input_field">Text Input:</label>
+              <input class="inputField" type="text" id="input_field" placeholder="Input your text here.">
+            </form>
+            <h4>Code:</h4>
+            <code>
+              &lt;form><br>
+              &emsp;&emsp;&lt;label for="input_field">Text Input:&lt;/label><br>
+              &emsp;&emsp;&lt;input type="text" id="input_field" placeholder="Input your text here."><br>
+              &lt;/form>
+            </code>
+          </div>
+        </section>
+
+        <section class="elements">
+          <div>
+            <h3>Radio Buttton Input field With Label</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <form>
+              <input type="radio" name="radio_button" value="a" id="A">
+              <label for="A">A</label>
+              <input type="radio" name="radio_button" value="b" id="B">
+              <label for="B">B</label>
+            </form>
+            <h4>Code:</h4>
+            <code>
+              &lt;form><br>
+              &emsp;&emsp;&lt;input type="radio" name="radio_button" value="a" id="A"><br>
+              &emsp;&emsp;&lt;label for="A">A&lt;/label><br>
+              &emsp;&emsp;&lt;input type="radio" name="radio_button" value="b" id="B"><br>
+              &emsp;&emsp;&lt;label for="B">B&lt;/label><br>
+              &lt;/form>
+            </code>
+          </div>
+        </section>
+
+
+        <section class="elements">
+          <div>
+            <h3>Image As A Link</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <a class="imageLink" href="https://www.twinings.co.uk/gifts/tea-caddies/discovery-collection-exotic-mango-ginger-loose"><img src="img/Loose-Tea.png" alt="tea leaf"></a>
+            <h4>Code:</h4>
+            <code>
+            &lt;a href="https://www.twinings.co.uk/gifts/tea-caddies/discovery-collection-exotic-mango-ginger-loose">&lt;img src="img/Loose-Tea.png" alt="tea leaf">&lt;/a>
+            </code>
+          </div>
+        </section>
+      </section>
+
+      <section id="text_styling">
+        <h2>Text Styling</h2>
+
+        <section class="elements">
+          <div>
+            <h3>Headings</h3>
+          </div>
+          <div  id="egHeading">
+            <h4>Example:</h4>
+            <h2>Heading 1</h2>
+            <h3>Heading 2</h3>
+            <h4>Heading 3</h4>
+            <h5>Heading 4</h5>
+            <h4>Code:</h4>
+            <code id="">
+              &lt;h2>Heading 1&lt;/h2><br>
+              &lt;h3>Heading 2&lt;/h3><br>
+              &lt;h4>Heading 3&lt;/h4><br>
+              &lt;h5>Heading 4&lt;/h5><br>
+            </code>
+          </div>
+
+
+        </section>
+
+
+        <section class="elements">
+          <div>
+            <h3>Paragraph</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h4>Code:</h4>
+            <code>
+              &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+            </code>
+          </div>
+        </section>
+
+
+        <section class="elements">
+          <div>
+            <h3>Numbered Lists</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <ol>
+              <li>Product A</li>
+              <li>Product B</li>
+              <li>Product C</li>
+            </ol>
+            <h4>Code:</h4>
+            <code>
+              &lt;ol><br>
+              &emsp;&emsp;&lt;li>Product A&lt;/li><br>
+              &emsp;&emsp;&lt;li>Product B&lt;/li><br>
+              &emsp;&emsp;&lt;li>Product C&lt;/li><br>
+              &lt;/ol>
+            </code>
+          </div>
+
+
+        </section>
+
+      </section>
+      <section id="combined">
+
+        <section class="elements">
+          <div>
+            <h3>Main Navigation</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <nav>
+              <a class="nav_link"href="#" class="main_nav">Home</a>
+              <a class="nav_link"href="#" class="main_nav">About</a>
+              <a class="nav_link"href="#" class="main_nav">Contact</a>
+            </nav>
+            <h4>Code:</h4>
+            <code>
+              &lt;nav><br>
+              &emsp;&emsp;&lt;a href="#" class="main_nav">Home&lt;/a><br>
+              &emsp;&emsp;&lt;a href="#" class="main_nav">About&lt;/a><br>
+              &emsp;&emsp;&lt;a href="#" class="main_nav">Contact&lt;/a><br>
+              &lt;/nav>
+            </code>
+          </div>
+
+
+        </section>
+
+
+        <section class="elements">
+          <div>
+            <h3>Product Listing</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <a href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLs8PE1NzkAhWWoJ4KHVg5B3kQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.townhouse.com.hk%2Ffullscreen-page%2Fcomp-jkt620b6%2F52936222-43d7-4769-9c2f-dbcdb37d73b4%2F1%2F%253Fi%253D1%2526p%253Dahu4a%2526s%253Dstyle-jkt620b9&psig=AOvVaw270XNVBButAhME7GZ4s8lq&ust=1568974714105292"><img src="img/teaPot.jpg" alt="tea pot"></a>
+            <h3>Glass Tea Pot</h3>
+            <p>$25</p>
+            <h4>Code:</h4>
+            <code>
+              &lt;a href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLs8PE1NzkAhWWoJ4KHVg5B3kQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.townhouse.com.hk%2 <br>Ffullscreen-page%2Fcomp-jkt620b6%2F52936222-43d7-4769-9c2f-dbcdb37d73b4%2F1%2F%253Fi%253D1%2526p%253Dahu4a%2526s%253Dstyle-jkt620b9&psig=AOvVaw270XNVBButAhME7GZ4s8lq&ust=1568974714105292">&lt;img src="img/teaPot.jpg" alt="tea pot">&lt;/a><br>
+              &lt;h3>Glass Tea Pot&lt;/h3><br>
+              &lt;p>$25&lt;/p>
+            </code>
+          </div>
+        </section>
+
+
+        <section class="elements">
+          <div>
+            <h3>Payment Form</h3>
+          </div>
+          <div>
+            <h4>Example:</h4>
+            <h5>Total Payment:$10.00</h5>
+            <h5>Payment Method</h5>
+            <form>
+              <input type="radio" name="radio_button" value="a" id="visa">
+              <label for="visa">Visa</label>
+              <input type="radio" name="radio_button" value="b" id="master">
+              <label for="master">MasterCard</label>
+            </form>
+            <h5>Credit Card</h5>
+            <form>
+              <label for="card_num">Card Number:</label>
+              <input class="inputField"type="text" id="card_num">
+              <label for="security_code">Security Code:</label>
+              <input class="inputField"type="text" id="security_code">
+            </form>
+            <form>
+              <label for="name">Name on Card:</label>
+              <input class="inputField"type="text" id="name">
+              <label for="expiration">Expiration:</label>
+              <input class="inputField"type="text" id="expiration" placeholder="MMYY">
+            </form>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+            <h4>Code:</h4>
+            <code>
+              &lt;form><br>
+              &emsp;&emsp;&lt;input type="radio" name="radio_button" value="a" id="A"><br>
+              &emsp;&emsp;&lt;label for="A">Visa&lt;/label><br>
+              &emsp;&emsp;&lt;input type="radio" name="radio_button" value="b" id="B"><br>
+              &emsp;&emsp;&lt;label for="B">MasterCard&lt;/label><br>
+              &lt;/form><br>
+              &lt;h5>Credit Card&lt;/h5><br>
+              &lt;form><br>
+              &emsp;&emsp;&lt;label for="card_num">Card Number:&lt;/label><br>
+              &emsp;&emsp;&lt;input type="text" id="card_num"><br>
+              &emsp;&emsp;&lt;label for="security_code">Security Code:&lt;/label><br>
+              &emsp;&emsp;&lt;input type="text" id="security_code"><br>
+              &lt;/form><br>
+              &lt;form><br>
+              &emsp;&emsp;&lt;label for="name">Name on Card:&lt;/label><br>
+              &emsp;&emsp;&lt;input type="text" id="name"><br>
+              &emsp;&emsp;&lt;label for="expiration">Expiration:&lt;/label><br>
+              &emsp;&emsp;&lt;input type="text" id="expiration" placeholder="MMYY"><br>
+              &lt;/form><br>
+              &lt;button type="submit" value="Submit">Submit&lt;/button><br>
+              &lt;button type="reset" value="Reset">Reset&lt;/button><br>
+            </code>
+          </div>
+        </section>
+
+
+        <section>
+          <h3>Checkout Cart</h3>
+          <h4>Example:</h4>
+          <section>
+            <h3>My Cart</h3>
+            <img src="img/Loose-Tea.png" alt="">
+            <h4>Midnight Smash</h4>
+            <p><strong>$12</strong></p>
+            <h6>QTY - 1</h6>
+          </section>
+          <section>
+            <img src="img/teaPot.jpg" alt="">
+            <h4>Midnight Smash</h4>
+            <p><strong>$25</strong></p>
+            <h6>QTY - 1</h6>
+          </section>
+
+          <p><strong>Total:</strong>$37</p>
+          <p><strong>Delivery:</strong></p>
+          <a class="nav_link"href="#" class="">CHECKOUT</a>
+          <h4>Code:</h4>
+          <code>
+            &lt;section><br>
+            &lt;h3>My Cart&lt;/h3><br>
+            &lt;img src="img/Loose-Tea.png" alt=""><br>
+            &lt;h4>Midnight Smash&lt;/h4><br>
+            &lt;p>&lt;strong>$12&lt;/strong>&lt;/p><br>
+            &lt;h6>QTY - 1&lt;/h6><br>
+            &lt;/section><br>
+            &lt;section><br>
+            &lt;img src="img/teaPot.jpg" alt=""><br>
+            &lt;h4>Midnight Smash&lt;/h4><br>
+            &lt;p>&lt;strong>$25&lt;/strong>&lt;/p><br>
+            &lt;h6>QTY - 1&lt;/h6><br>
+            &lt;/section>    <br>
+            &lt;hr><br>
+            &lt;p>&lt;strong>Total:&lt;/strong>$37&lt;/p><br>
+            &lt;p>&lt;strong>Delivery:&lt;/strong>&lt;/p><br>
+            &lt;a href="#" class="">CHECKOUT&lt;/a><br>
+          </code>
+        </section>
+
+      </section>
+    </section>
+    <section id="branding_ideas" class="section">
+      <h2>Bradning Ideas</h2>
+      <h4>What does the company do, or offer?</h4>
+      <p>This style guide is for an imaginary company that sells a wide variety of organic tea and tea accessories. The Company aims to offer high-quality tea leaf and unique flavors. On this website, customers will be able to know more about the ingredients, and pick their favorite blended tea from popular recipes or customize their own blend. The company also offers hand-crafted tea drink in local stores.</p>
+      <h4>Who is the company to potential customers?</h4>
+      <p>Majority part of our potential customers will be tea lovers who are looking for a pleasant, relaxing place in which to indulge their love of tea, share it with friends, and learn more about tea varieties, cultivation, and health properties.</p>
+      <p>Other potential customers may be gift buyers, tourists, socializer and people who intakes tea as health food.</p>
+      <h4>Why might this company entice someone to purchase a product or service?</h4>
+      <p>Nowadays, tea is growing in popularity and more people are drinking tea in the mornings as a healthier substitute for coffee. The company provides the local upper-middle-class community with a wide variety of selction, elegant decorative tea accessories and unique tea for gifts. Those customers will be glad to pay the price premium for our products in exchange for the high quality, great taste, and sense of prestige they receive. </p>
+    </section>
+
+    <section id="brand_components" class="section">
+      <h2>Brand Components</h2>
+      <section>
+        <h3>Fonts</h3>
+        <img src="img/fonts.png" alt="fonts">
+      </section>
+      <section>
+        <h3>Colour Palettes</h3>
+        <img src="img/color.png" alt="color palettes">
+      </section>
+      <section>
+        <h3>Potential Imagery & Art Direction</h3>
+        <img src="img/art_direction.png" alt="color palettes">
+      </section>
+    </section>
+    <section id="citation" class="section">
+      <h2>Citation</h2>
+      <p>https://www.twinings.co.uk/gifts/tea-caddies/discovery-collection-exotic-mango-ginger-loose</p>
+      <p>https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLs8PE1NzkAhWWoJ4KHVg5B3kQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.townhouse.com.hk%2Ffullscreen-page%2Fcomp-jkt620b6%2F52936222-43d7-4769-9c2f-dbcdb37d73b4%2F1%2F%253Fi%253D1%2526p%253Dahu4a%2526s%253Dstyle-jkt620b9&psig=AOvVaw270XNVBButAhME7GZ4s8lq&ust=1568974714105292</p>
+      <p>https://www.youtube.com/watch?v=L9-fTKqnkvk</p>
+      <p>https://www.davidstea.com/ca_en/rainbow-sherbet-tea</p>
+      <p>https://dribbble.com/shots/1940730-Leaf-Collage</p>
+      <p>https://www.flickr.com/photos/33273581@N00/7425212048/in/photostream</p>
+      <p>http://www.finnishdesignshop.com/kitchenware-kitchen-textiles-maatila-tea-towel-p-5184.html</p>
+      <p>https://www.davidstea.com/ca_en/tea/collections/organic-throat-rescue/10575DT01VAR0033413.html?cgid=tea-collections#sz=12&start=93</p>
+      <p>https://www.davidstea.com/ca_en/tea/collections/tulsi-tranquility/10708DT01VAR0061569.html?cgid=tea-collections#sz=12&start=116</p>
+    </section>
+  </body>
+</html>
