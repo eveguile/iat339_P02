@@ -9,11 +9,12 @@
 }
 
 body {
-  margin: 0px;
+  margin: 200px 0px;
   width: 100%;
 }
 
 h1 {
+  color: #0b4235;
   margin-top: 150px;
   margin-left: 60px;
 }
@@ -22,34 +23,33 @@ h2 {
   margin: 50px 60px;
   border-bottom: 2px solid #420000;
   font-style: bold;
-  color: #420000;
-  font-family: 'Be Vietnam', sans-serif;
+  color: #0b4235;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-  color: #8b4367;
+  color: #0b4235;
   font-size: 18px;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1em;
   margin: 40px 60px;
 }
 
-code{
+pre{
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
-  width: 50%;
-  height: auto;
-  margin: 40px 60px;
+  flex:1;
+  margin: 10px;
 }
 
 
-/*main navigation bar section*/
+/*all main navigation bar section*/
 .main_nav {
   margin-bottom: 50px;
   font-size: 15px;
   display: inline-block;
   justify-content: space-between;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar li, .main_nav nav li {
@@ -60,18 +60,20 @@ code{
 }
 
 .main_nav a, .navbar a {
+  font-family: 'Montserrat', sans-serif;
   margin-left: 60px;
-  color: black;
+  color: #0b4235;
   text-decoration: none;
 }
 
 .main_nav li a:hover, .navbar li a:hover {
-  color: #943855;
+  color: #f9cbbb;
 }
 
 /*interactive elements bar section*/
+
 #interactive_elements .element .cart-button {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
   margin: 1em 60px;
   font-weight: 300;
   font-size: 0.7em;
@@ -91,6 +93,10 @@ code{
 }
 
 .element a {
+  color:#0b4235;
+  background-color: white;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
   margin-left: 60px;
 }
 
@@ -114,24 +120,56 @@ code{
   background-color: black;
   color: white;
 }
+/*text elements section*/
+#text_elements .element{
+  margin-left: 60px;
+}
+#text_elements .text{
+  margin-bottom: 1em;
+}
+.element #headings{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+}
+.element #Subheadings{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.3em;
 
+}
+.element #Paragraphs{
+  width: 80%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.0em;
+
+}
+/*forms*/
+.Input-Text form input, .Input-Text form label {
+  color: #0b4235;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  width: 30%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.Input-Text form input, .payment .form input{
+  border:none;
+  border-bottom: 2px solid #0b4235;
+}
+.Input-Text form input:hover, .payment .form input:hover{
+  border-bottom: 2px solid #f9cbbb;
+}
 .payment .form {
   margin-left: 60px;
 }
-
-.Input_Text .form input, .Input_Text .form label {
-  display: block;
-  width: 30%;
-  height: 20px;
-  margin-top: 20px;
-  margin-left: 60px;
-}
-
 .payment .form label {
+  letter-spacing: 0.1em;
+  color: #0b4235;
+  font-family: 'Oswald', sans-serif;
   display: block;
   width: 30%;
   height: 20px;
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 .radio input {
@@ -149,20 +187,34 @@ code{
 }
 
 .radio input:hover {
-  background: #9faab7;
+  background: #0b4235;
 }
 
 .radio input:checked {
-  background: #c06c84;
+  background:#0b4235;
 }
 
 .Fonts p {
-  margin-left: 60px;
+  margin:1.3em 60px;
+}
+.Fonts #subheading-font{
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif
+
+}
+.Fonts #heading-font{
+  font-size: 1.8em;
+  font-family: 'Montserrat', sans-serif
+
+}
+.Fonts #text-font{
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif
 }
 
 .lists ol {
   margin-left: 80px;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
 }
 
@@ -171,50 +223,29 @@ code{
 }
 
 .BRANDING_COMPONENTS p {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   margin: 0 20px;
   width: 80%;
 }
+/*color palette section*/
+.Palette img{
+  display: block;
+  margin-left: 60px;
 
-.Palette, .Imagery {
+
+}
+/*imagery section*/
+.Imagery  {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
-}
-
-.Palette .block, .Imagery .block {
-  margin-top: 30px;
-  margin-right: 10px;
   flex-basis: 15em;
-  height: 200px;
-  width: 100px;
 }
-
-.Palette .block p {
-  padding: 0.5rem;
-  font-family: 'Assistant', sans-serif;
-}
-
-.Palette #b {
-  background-color: #943855;
-}
-
-.Palette #c {
-  background-color: #f1e4e4;
-}
-
-.Palette #d {
-  background-color: #c06c84;
-}
-
 .Imagery img {
+  margin-left: 60px;
   height: 200px;
   width: 200px;
 }
 
-.Imagery {
-  margin-bottom: 100px;
-}
 
 @media screen and (max-width: 50em) {
   .main_nav .nav_links li, .navbar .nav_links li, .buttons a, #combined_elements .nav_links li {
@@ -229,7 +260,152 @@ code{
   .Palette .block {
     width: 100%;
   }
-  pre{
-    font-size: 10px;
+  .product .column1{
+    flex-direction: column;
   }
+  pre{
+  }
+}
+
+.product .column1{
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.product .column1 .New_Arrivals{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+.product .column1 .item{
+  margin-bottom: 1em;
+  justify-content: space-around;
+  flex:1;
+}
+.product .column1 .item img{
+  height:200px;
+}
+.product .column1 .item img:hover{
+  opacity: 0.7;
+}
+.product .column1 .item p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7em;
+  padding-top: 5px;
+}
+
+
+/*
+begin checkout form
+*/
+.checkoutform .container {
+  margin: 0px 60px;
+  border: 1px solid lightgrey;
+}
+
+.checkoutform .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.checkoutform .column1 h4{
+  margin: 20px 20px;
+}
+.checkoutform .column1 {
+  width: 35%;
+  color: #0b4235;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/*all forms have 20px of padding*/
+.checkoutform.column1 .billing_info, .form-group, .column2 .payment_info, .column3 .summary {
+  padding: 20px;
+}
+
+.checkoutform .column1 .billing_info input, .form-group input {
+  width: 50%;
+  height: 28px;
+  margin-bottom: 15px;
+}
+
+/*
+begin column2
+*/
+.checkoutform .column2 {
+  width: 35%;
+  color: #0b4235;
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+}
+
+.checkoutform .column2 .form {
+  margin-top: 20px;
+}
+
+.checkoutform .column2 .payment_info h4 {
+  margin-bottom: 25px;
+}
+
+.checkoutform .column2 .payment_info i {
+  font-size: 30px;
+  padding-right: 30px;
+}
+
+.checkoutform .column2 .payment_info input {
+  width: 50%;
+  height: 28px;
+  margin-bottom: 15px;
+}
+
+.checkoutform .column2 .payment_info button {
+  font-size: 20px;
+}
+
+.checkoutform input[input=text] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #0b4235;
+}
+
+*:focus{
+  outline: none;
+}
+
+.checkoutform label {
+  margin-bottom: 10px;
+  display: block;
+  color: #0b4235;
+}
+
+.checkoutform .column1 input:hover, .column2 input:hover {
+  border: none;
+  border-bottom: 1px solid #0b4235;
+}
+
+.checkoutform .column1 label:active input:hover, .column2 label:active input:hover {
+  border: none;
+  border-bottom: 1px solid #0b4235;
+}
+
+
+@media screen and (max-width:920px) {
+  .container {
+    flex-direction: column;
+    margin: 10px 25px;
+  }
+
+  .column1, .column2, {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .checkoutform .column1 input , .checkoutform .column2 .form input{
+    width: 200%;
+  }
+
+}
+
 }

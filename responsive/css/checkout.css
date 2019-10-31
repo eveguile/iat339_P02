@@ -114,6 +114,10 @@ input[input=text] {
   border: 1px solid #0b4235;
 }
 
+*:focus{
+  outline: none;
+}
+
 label {
   margin-bottom: 10px;
   display: block;

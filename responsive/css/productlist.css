@@ -5,9 +5,9 @@
 }
 
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Righteous', cursive;
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Cormorant Garamond', serif; - text,buttons
+font-family: 'Montserrat', sans-serif; - heading for nav
+font-family: 'Oswald', sans-serif; - subheading
 https://www.youtube.com/watch?v=ceGcS5CAi5s contact us responsive
 https://www.youtube.com/watch?v=oAX3sliWVUE product listing
 <i class="fab fa-facebook"></i>
@@ -21,7 +21,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #0b4235;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   min-height: 17vh;
 }
 
@@ -30,7 +30,9 @@ nav {
   letter-spacing: 5px;
   font-size: 18px;
 }
-
+.logo a{
+  text-decoration: none;
+}
 .shopcart {
   font-size: 1.5625em;
   color: #f9cbbb;
@@ -110,12 +112,19 @@ nav {
   */
 
 .drop-down {
-  margin: 0% 10% 12% 10%;
+  cursor: pointer;
+  margin: 0% 10% 8% 10%;
 }
+.drop-down li a{
+  text-decoration: none;
+  margin: 0.5em 0em;
+  color: black;
+}
+
 .drop-down h1 {
   font-size: 1.875em;
   text-align: center;
-  margin: 10% 0% 0% 0%;
+  margin: 7% 0% 0% 0%;
 }
 .drop-down ul h2{
   font-size: 1.25em;
@@ -136,7 +145,7 @@ nav {
 }
 
 .drop-down ul li:hover {
-  border-bottom: 1px solid black
+  background-color: #f8f8f8;
 }
 
 .drop-down ul ul {
@@ -145,7 +154,8 @@ nav {
 }
 
 .drop-down ul ul li {
-  width: 150px;
+  width: 130px;
+  height:1.6em;
 }
 
 .drop-down ul li:hover> ul {
@@ -298,7 +308,7 @@ nav {
   font-size: 13px;
 }
 
-.footer-items ul li, a {
+.footer-items ul li, .footer-items ul li a {
   text-decoration: none;
   margin: 10px 0px;
   color: black;
@@ -339,8 +349,14 @@ nav {
   font-size: 0.9375em;
   text-align: center;
 }
+@media screen and (max-width:2000px) {
 
-@media screen and (max-width:1085px) {
+  .drop-down ul {
+    margin: 5% 10% 10% 5%;
+  }
+}
+
+@media screen and (max-width:950px) {
   .footer-items {
     width: 50%;
     margin: 15px 0px;
@@ -350,8 +366,11 @@ nav {
     text-align: left;
   }
 
+.drop-down {
+  margin-bottom: 0em;
+}
   .drop-down ul {
-    margin: 5% 10% 35% 5%;
+    margin: 5% 10% 18% 5%;
   }
 }
 
@@ -370,4 +389,8 @@ nav {
     margin: 10% 10% 0% 5%;
     text-align: left;
   }
+  .drop-down ul {
+    margin: 5% 10% 32% 5%;
+  }
+
 }

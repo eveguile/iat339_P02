@@ -267,7 +267,7 @@ body {}
   }
 }
 
-@media (max-width:52em) {
+@media (max-width:55em) {
   .img-placeholder {
     width: 75%;
   }

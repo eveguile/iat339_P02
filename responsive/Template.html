@@ -6,7 +6,9 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Style Guide - BeSimple.</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat:600|Oswald&display=swap" rel="stylesheet">
+  <title>BeSimple.</title>
 
   <link href="css/main.css" rel="stylesheet">
 
@@ -21,9 +23,9 @@
     <nav>
       <ul class="nav_links">
         <li><a href="#interactive_elements">Interactive Elements</a></li>
-        <li><a href="#Text_styling"> Text styling</a></li>
-        <li><a href="#Combined elements">Combined elements</a></li>
-        <li><a href="#Branding_Components">Branding</a></li>
+        <li><a href="#text_elements"> Text styling</a></li>
+        <li><a href="#combined_elements">Combined elements</a></li>
+        <li><a href="#BRANDING_COMPONENTS">Branding</a></li>
     </nav>
 
     <nav>
@@ -44,55 +46,58 @@
   <section id="interactive_elements">
     <h2>INTERACTIVE ELEMENTS</h2>
 
-  <!-- Default Button styling section -->
-  <section class="navbar">
+    <!-- Default Button styling section -->
+    <section class="navbar">
 
-    <h3>NAVIGATION LINK</h3>
-    <nav>
-      <ul class="nav_links">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="home.html">About Us</a></li>
-        <li><a href="productlist.html">Products</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
+      <h3>NAVIGATION LINK</h3>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="home.html">About Us</a></li>
+          <li><a href="productlist.html">Products</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+
+      </nav>
+
+      <h3>Sample code:</h3>
+      <div class="code-section">
+        <pre><code>
+        &lt;ul class=&quot;nav_links&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;productlist.html&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;contact_us.html&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;</code></pre>
+      </div>
+    </section>
+
+    <section class="element">
+      <h3>IN-TEXT LINK</h3>
+      <a href="detail.html">MORE DETAILS</a>
+      <h3>Sample code:</h3>
+      <pre><code>
+        &lt;a href=&quot;detail.html&quot;&gt;MORE DETAILS&lt;/a&gt;
+      </code></pre>
+    </section>
+
+    <section class="buttons">
+      <h3>SUBMIT/RESET BUTTONS</h3>
+      <ul>
+        <a href="detail.html"><button type="button">ADD TO CART</button></a></a>
+        <a href="detail.html"><button type="button">SUBMIT</button></a></a>
+        <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
       </ul>
+      <h3>Sample code:</h3>
+      <pre><code>
+        &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;ADD TO CART&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
+        &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;SUBMIT&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
+        &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;SEE DETAILS&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
+      </pre></code>
+    </section>
 
-    </nav>
-
-    <h3>Sample code:</h3>
-   <pre><code>
-      &lt;ul class=&quot;nav_links&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;productlist.html&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;contact_us.html&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;</code></pre>
-
-  </section>
-
-  <section class="element">
-    <h3>IN-TEXT LINK</h3>
-    <a href="detail.html">MORE DETAILS</a>
-    <h3>Sample code:</h3>
-    <pre><code>&lt;a href=&quot;detail.html&quot;&gt;MORE DETAILS&lt;/a&gt;</code></pre>
-  </section>
-
-  <section class="buttons">
-    <h3>SUBMIT/RESET BUTTONS</h3>
-    <ul>
-      <a href="detail.html"><button type="button">ADD TO CART</button></a></a>
-      <a href="detail.html"><button type="button">SUBMIT</button></a></a>
-      <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
-    </ul>
-    <h3>Sample code:</h3>
-    <pre><code>
-      &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;ADD TO CART&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
-      &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;SUBMIT&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
-      &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;SEE DETAILS&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;</pre></code>
-  </section>
-
-  <section id="Input-Text">
-    <h2>INPUT TEXT</h2>
-    <section class="Input_Text">
+    <section class="Input-Text">
+      <h2>INPUT TEXT</h2>
       <form>
         <div class="form">
           <label for="cname">Name on Card</label>
@@ -102,22 +107,37 @@
         </div>
       </form>
 
+      </div>
+      <h3>Sample code:</h3>
+      <pre><code>
+        &lt;form&gt;
+          &lt;div class=&quot;form&quot;&gt;
+            &lt;label for=&quot;cname&quot;&gt;Name on Card&lt;/label&gt;
+            &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; placeholder=&quot;John Smith&quot;&gt;
+            &lt;label for=&quot;ccnum&quot;&gt;Credit card number&lt;/label&gt;
+            &lt;input type=&quot;text&quot; id=&quot;num&quot; name=&quot;number&quot; placeholder=&quot;1234-2345-3456-4567&quot;&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+      </pre></code>
     </section>
-    <h3>Sample code:</h3>
-    <code></code>
-  </section>
 
-  <section class="radio">
-    <h3>RADIO BUTTON WITH LABELS</h3>
+    <section class="radio">
+      <h3>RADIO BUTTON WITH LABELS</h3>
 
-    <form>
-      <input type="radio" name="Plan" value="A" checked> Plan A<br>
-      <input type="radio" name="Plan" value="B"> Plan B<br>
-      <input type="radio" name="Plan" value="C"> Others
-    </form>
-    <h3>Sample Code</h3>
-    <code></code>
-  </section>
+      <form>
+        <input type="radio" name="Plan" value="A" checked> Plan A<br>
+        <input type="radio" name="Plan" value="B"> Plan B<br>
+        <input type="radio" name="Plan" value="C"> Others
+      </form>
+      <h3>Sample Code</h3>
+      <pre><code>
+        &lt;form&gt;
+          &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;A&quot; checked&gt; Plan A
+          &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;B&quot;&gt; Plan B
+          &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;C&quot;&gt; Others
+        &lt;/form&gt;
+      </pre></code>
+    </section>
 
   </section>
   <!-- // INTERACTIVE ELEMENTS SECTION -->
@@ -129,23 +149,27 @@
     <h2>TEXT ELEMENTS</h2>
 
     <div class="element">
-      <h3>Headings - 30px</h3>
-      <h3>Subheadings - 25px</h3>
-      <h3>This is the style for captions - 16px</h3>
+      <p class="text" id="headings">Headings</p>
+      <p class="text" id="Subheadings">Subheadings</p>
+      <p class="text" id="Paragraphs">Paragraphs:<br>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
     </div>
   </section>
 
   <section class="lists">
     <h3>Numbered Lists</h3>
     <ol>
-      <li>Jewlery</li>
-      <li>Earrings</li>
-      <li>Necklace</li>
-      <li>Bracelets</li>
+      <li>Product 1</li>
+      <li>Product 2</li>
+      <li>Product 3</li>
     </ol>
     <h3>Sample Code</h3>
-    <code>
-    </code>
+    <pre><code>
+        &lt;ol&gt;
+          &lt;li&gt;Kitchen&lt;/li&gt;
+          &lt;li&gt;Living&lt;/li&gt;
+          &lt;li&gt;Bathroom&lt;/li&gt;
+        &lt;/ol&gt;
+</pre></code
 
   </section>
 
@@ -188,42 +212,143 @@
   </section>
 
   <section class="product">
-    <h3>PRODUCT LIST</h3>
+    <h3>Product list</h3>
+
+    <div class="column1">
+      <div class="New_Arrivals">
+
+        <div class="item">
+
+          <img src="image/kitchen1.jpg">
+          <div class="description">
+            <p>Classic milk soap - $15</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="image/kitchen2.jpg">
+          <div class="description">
+            <p>Greentea soap - $25</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="image/kitchen3.jpg">
+          <div class="description">
+            <p>Urban soap - $15</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    </div>
+  </section>
+
 
   </section>
 
 
   <section class="checkoutform">
     <h3>Checkout Form</h3>
+    <div class="container">
 
+      <div class="column1">
+        <div class="billing_info">
+          <h4> Billing Info </h4>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Full name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name"><br>
+
+            <label for="exampleInputPassword1">Address</label>
+            <input type="Address 1" class="form-control" id="exampleInputPassword1" placeholder="Address1"><br>
+
+            <label for="exampleInputPassword1">Address2</label>
+            <input type="Address 2" class="form-control" id="exampleInputPassword1" placeholder="Address2"><br>
+
+            <label for="exampleInputUsername">Province</label>
+            <input type="city" class="form-control" id="exampleInputUsername" placeholder="Province"><br>
+
+            <label for="exampleInputUsername">City</label>
+            <input type="city" class="form-control" id="exampleInputUsername" placeholder="City"><br>
+
+            <label for="exampleInputUsername">Postal Code</label>
+            <input type="city" class="form-control" id="exampleInputUsername" placeholder="Postal Code">
+
+          </div>
+        </form>
+      </div>
+
+
+      <div class="column2">
+        <div class="payment_info">
+          <h4> Payment </h4>
+          <label for="name">Accepted Payment </label>
+          <i class="fab fa-apple-pay"></i>
+          <i class="fab fa-cc-visa"></i>
+
+          <form>
+            <div class="form">
+              <label for="cname">Name on Card</label>
+              <input type="text" id="name" name="name" placeholder="John Smith">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="num" name="number" placeholder="1234-2345-3456-4567">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="October">
+              <label for="expyear">Exp Year</label>
+              <input type="text" id="expyear" name="expyear" placeholder="2030">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="242">
+            </div>
+          </form>
+
+        </div>
+      </div>
   </section>
 
-  <section class="BRANDING_COMPONENTS">
-    <h3>Branding Components</h3>
-
-
-  </section>
+  <section id="BRANDING_COMPONENTS">
+    <h2>Branding Components</h2>
 
   <section class="Fonts">
     <h3>Fonts</h3>
-    <p>font-family: 'Times', 'Lato', sans-serif; - paragraph</p>
-    <p>font-family: 'Times', 'Lato', sans-serif; - paragraph</p>
-    <p>font-family: 'Times', 'Lato', sans-serif; - paragraph</p>
+    <p class="fontfamily" id="subheading-font">'Oswald', sans-serif - Sub Headings</p>
+    <p class="fontfamily" id="heading-font">'Montserrat', sans-serif - Headings</p>
+    <p class="fontfamily" id="text-font">'Cormorant Garamond', serif - Paragraph</p>
 
   </section>
 
-  <h3>Palettes</h3>
+
   <section class="Palette">
-  </section>
+    <h3>Palettes</h3>
+    <img src="image/WechatIMG63.png" alt="palette">
 
+
+  </section>
 
   <h3>Imagery</h3>
   <section class="Imagery">
-
+    <div class"style-direction" id="b">
+      <img src="image/detail.jpg" alt="ricebowl">
+    </div>
+    <div class"style-direction" id="b">
+      <img src="image/detail2.jpg" alt="banner">
+    </div>
+    <div class"style-direction" id="b">
+      <img src="image/3-6.jpg" alt="plate">
+    </div>
+    <div class"style-direction" id="b">
+      <img src="image/11.jpg" alt="greentea">
+    </div>
   </section>
 
 
-
+  </section>
+  
   <!-- // COMBINED ELEMENTS SECTION -->
 
 
