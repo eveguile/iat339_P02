@@ -25,9 +25,9 @@ begin contact us information
   margin-bottom: 20%;
 }
 
-.row {
+.inner-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: inner-container;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -44,7 +44,7 @@ begin contact us information
 }
 
 .form h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: left;
   color: #0b4235;
   margin-bottom: 50px;
@@ -88,7 +88,9 @@ begin contact us information
 .input {
   margin-bottom: 10px;
 }
-
+.input input:focus, textarea:focus{
+  outline:none;
+}
 .input h3 , .inner-msg h3{
   display: block;
   font-size: 15px;
@@ -98,7 +100,9 @@ begin contact us information
   border: none;
   border-bottom:2px solid #f9cbbb;
 }
-
+.input input:hover h3{
+color: #f9cbbb;
+}
 
 .msg>textarea {
   width: 100%;
@@ -107,7 +111,7 @@ begin contact us information
 }
 
 .container-right {
-  flex-direction: row;
+  flex-direction: inner-container;
   height: auto;
 }
 
@@ -142,6 +146,7 @@ submit button
   width: 180px;
   cursor: pointer;
   transition: all 0.5 ease;
+  text-align: center;
 }
 
 .btn:hover {
@@ -156,7 +161,7 @@ styling social icons
 */
 
 
-@media screen and (max-width:1085px) {
+@media screen and (max-width:900px) {
   .input-form {
     flex-direction: column;
   }

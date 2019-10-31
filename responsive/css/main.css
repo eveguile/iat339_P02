@@ -1,0 +1,235 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
+h2 {
+  margin: 50px 60px;
+  border-bottom: 2px solid #420000;
+  font-style: bold;
+  color: #420000;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+h3 {
+  color: #8b4367;
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
+  margin: 40px 60px;
+}
+
+code{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 50%;
+  height: auto;
+  margin: 40px 60px;
+}
+
+
+/*main navigation bar section*/
+.main_nav {
+  margin-bottom: 50px;
+  font-size: 15px;
+  display: inline-block;
+  justify-content: space-between;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.navbar li, .main_nav nav li {
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.main_nav a, .navbar a {
+  margin-left: 60px;
+  color: black;
+  text-decoration: none;
+}
+
+.main_nav li a:hover, .navbar li a:hover {
+  color: #943855;
+}
+
+/*interactive elements bar section*/
+#interactive_elements .element .cart-button {
+  font-family: 'Lato';
+  margin: 1em 60px;
+  font-weight: 300;
+  font-size: 0.7em;
+  padding: 0.8em 1.5em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 2px;
+  transition: background-color 0.2s ease-out;
+}
+
+#interactive_elements .element .cart-button:hover, .cart-button:focus {
+  font-weight: 400;
+  background-color: #000;
+  color: #FFF;
+}
+
+.element a {
+  margin-left: 60px;
+}
+
+.buttons, .text_input {
+  margin-top: 100px;
+}
+
+.buttons button {
+  margin-left: 60px;
+  background-color: transparent;
+  height: 35px;
+  width: 120px;
+  font-size: 0.625em;
+}
+
+.buttons a {
+  padding: 10px;
+}
+
+.buttons button:hover {
+  background-color: black;
+  color: white;
+}
+
+.payment .form {
+  margin-left: 60px;
+}
+
+.Input_Text .form input, .Input_Text .form label {
+  display: block;
+  width: 30%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.payment .form label {
+  display: block;
+  width: 30%;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.radio input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  background-color: lightgrey;
+  color: #c06c84;
+  top: 10px;
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+
+.radio input:hover {
+  background: #9faab7;
+}
+
+.radio input:checked {
+  background: #c06c84;
+}
+
+.Fonts p {
+  margin-left: 60px;
+}
+
+.lists ol {
+  margin-left: 80px;
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 16px;
+}
+
+#combined_elements .nav_links li a:hover {
+  color: #c06c84;
+}
+
+.BRANDING_COMPONENTS p {
+  font-family: 'Be Vietnam', sans-serif;
+  margin: 0 20px;
+  width: 80%;
+}
+
+.Palette, .Imagery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.Palette .block, .Imagery .block {
+  margin-top: 30px;
+  margin-right: 10px;
+  flex-basis: 15em;
+  height: 200px;
+  width: 100px;
+}
+
+.Palette .block p {
+  padding: 0.5rem;
+  font-family: 'Assistant', sans-serif;
+}
+
+.Palette #b {
+  background-color: #943855;
+}
+
+.Palette #c {
+  background-color: #f1e4e4;
+}
+
+.Palette #d {
+  background-color: #c06c84;
+}
+
+.Imagery img {
+  height: 200px;
+  width: 200px;
+}
+
+.Imagery {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 50em) {
+  .main_nav .nav_links li, .navbar .nav_links li, .buttons a, #combined_elements .nav_links li {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .nav_bar, .navbar .nav_links, .buttons a {
+    display: block;
+  }
+
+  .Palette .block {
+    width: 100%;
+  }
+  pre{
+    font-size: 10px;
+  }
+}
