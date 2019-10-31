@@ -17,6 +17,7 @@ https://www.youtube.com/watch?v=oAX3sliWVUE product listing
 
 /*begin nav bar*/
 nav {
+  text-decoration: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
