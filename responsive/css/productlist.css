@@ -8,13 +8,7 @@
 font-family: 'Cormorant Garamond', serif; - text,buttons
 font-family: 'Montserrat', sans-serif; - heading for nav
 font-family: 'Oswald', sans-serif; - subheading
-https://www.youtube.com/watch?v=ceGcS5CAi5s contact us responsive
-https://www.youtube.com/watch?v=oAX3sliWVUE product listing
-<i class="fab fa-facebook"></i>
-<i class="fab fa-twitter"></i>
-<i class="fab fa-instagram"></i>
 */
-
 /*begin nav bar*/
 nav {
   text-decoration: none;
@@ -28,12 +22,14 @@ nav {
 
 .logo {
   color: #f9cbbb;
-  letter-spacing: 5px;
-  font-size: 18px;
+  letter-spacing: 0.313em;
+  font-size: 1.125em;
 }
-.logo a{
+
+.logo a {
   text-decoration: none;
 }
+
 .shopcart {
   font-size: 1.5625em;
   color: #f9cbbb;
@@ -56,10 +52,9 @@ nav {
   list-style: none;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
   color: #f9cbbb;
   opacity: 0.9;
-
 }
 
 /*creating the drop down logo*/
@@ -69,13 +64,13 @@ nav {
 }
 
 .burger div {
-  width: 25px;
+  width: 1.563em;
   height: 0.47vh;
   background-color: #f9cbbb;
-  margin: 5px;
+  margin: 0.313em;
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:52.500em) {
   body {
     overflow-x: hidden;
   }
@@ -111,12 +106,13 @@ nav {
 /*
   begin drop down menu
   */
-
 .drop-down {
+  font-family: 'Oswald', sans-serif;
   cursor: pointer;
   margin: 0% 10% 8% 10%;
 }
-.drop-down li a{
+
+.drop-down li a {
   text-decoration: none;
   margin: 0.5em 0em;
   color: black;
@@ -127,7 +123,8 @@ nav {
   text-align: center;
   margin: 7% 0% 0% 0%;
 }
-.drop-down ul h2{
+
+.drop-down ul h2 {
   font-size: 1.25em;
 }
 
@@ -137,7 +134,7 @@ nav {
 
 .drop-down ul a, .drop-down li a {
   display: block;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .drop-down ul li {
@@ -155,19 +152,18 @@ nav {
 }
 
 .drop-down ul ul li {
-  width: 130px;
-  height:1.6em;
+  width: 6.250em;
+  height: 1.8em;
+  font-size: 1em;
 }
 
-.drop-down ul li:hover> ul {
+.drop-down ul li:hover>ul {
   display: block;
 }
 
 /*
   end drop down menu
   */
-
-
 /*
   begin product list
   */
@@ -190,12 +186,12 @@ nav {
 
 .product-item .product-info h3 {
   margin-top: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .product-item h4 {
   margin-top: 10px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .product-img img {
@@ -219,33 +215,31 @@ nav {
 .product-item button {
   position: relative;
   margin-top: 7%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   float: right;
   opacity: 1;
   background-color: transparent;
-  height: 35px;
-  width: 120px;
+  height: 3.28em;
+  width: 8.00em;
   font-size: 0.625em;
 }
-
 
 .product-item button:hover {
   background-color: black;
   color: white;
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width:57.500em) {
   .product-item {
     flex: 1 35%;
-    margin: 30px;
+    margin: 1.875em;
   }
-
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:46.250em) {
   .product-item {
     flex: 2 75%;
-    margin: 30px;
+    margin: 1.875em;
   }
 
   .product-item .product-info h4 {
@@ -256,20 +250,21 @@ nav {
 /*
   begin citations
   */
-  .citations{
-    margin: 10%;
-    width: 85%;
-  }
+.citations {
+  margin: 10%;
+  width: 85%;
+}
 
-  /*
+/*
     end citations
     */
 /*
   begin footer
   */
 .footer {
+  font-family: 'Oswald', sans-serif;
   width: 100%;
-  padding: 40px 20px 0px 90px;
+  padding: 2.500em 1.250em 0em 5.625em;
   text-align: justify;
   box-sizing: border-box;
   display: block;
@@ -280,7 +275,7 @@ nav {
   width: 100%;
   height: auto;
   margin: auto;
-  padding: 10px 0px;
+  padding: 0.625em 0px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -289,18 +284,16 @@ nav {
 
 .footer-items {
   width: 25%;
-  padding: 0px 15px;
+  padding: 0px 0.938em;
   margin: 0px;
   box-sizing: border-box;
-  font-size: 13px;
-  opacity: 0.9;
+  font-size: 0.813em;
 }
 
 .footer-items p {
-  color: grey;
   text-align: left;
-  line-height: 25px;
-  font-size: 14px;
+  line-height: 1.563em;
+  font-size: 0.875em;
   width: 90%;
 }
 
@@ -311,7 +304,7 @@ nav {
 
 .footer-items ul li, .footer-items ul li a {
   text-decoration: none;
-  margin: 10px 0px;
+  margin: 0.625em 0px;
   color: black;
 }
 
@@ -319,7 +312,7 @@ nav {
   border-bottom: 1px solid black;
 }
 
-.footer-items h5,.footer-items h6  {
+.footer-items h5, .footer-items h6 {
   font-size: 0.9375em;
 }
 
@@ -329,7 +322,7 @@ nav {
 }
 
 .contact i {
-  margin: 10px 10px;
+  margin: 0.625em 0.625em;
 }
 
 .contact span {
@@ -337,7 +330,7 @@ nav {
 }
 
 .social i {
-  margin: 10px 10px 10px 10px;
+  margin: 0.625em 0.625em 0.625em 0.625em;
   font-size: 1.25em;
   flex-direction: row;
   color: black;
@@ -345,19 +338,19 @@ nav {
 
 .footer-bottom {
   width: 100%;
-  padding: 10px 0px;
-  margin: 0px;
+  padding: 0.625em 0px;
+  margin: 0em;
   font-size: 0.9375em;
   text-align: center;
 }
-@media screen and (max-width:2000px) {
 
+@media screen and (max-width:125.000em) {
   .drop-down ul {
-    margin: 5% 10% 10% 5%;
+    margin: 5% 10% 15% 5%;
   }
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:59.375em) {
   .footer-items {
     width: 50%;
     margin: 15px 0px;
@@ -367,18 +360,19 @@ nav {
     text-align: left;
   }
 
-.drop-down {
-  margin-bottom: 0em;
-}
+  .drop-down {
+    margin-bottom: 0em;
+  }
+
   .drop-down ul {
     margin: 5% 10% 18% 5%;
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:40.625em) {
   .footer-items {
     width: 100%;
-    margin: 20px 0px;
+    margin: 1.250em 0em;
   }
 
   .footer-bottom {
@@ -390,8 +384,8 @@ nav {
     margin: 10% 10% 0% 5%;
     text-align: left;
   }
+
   .drop-down ul {
     margin: 5% 10% 32% 5%;
   }
-
 }

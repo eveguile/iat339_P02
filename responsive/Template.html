@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat:600|Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
   <title>BeSimple.</title>
 
   <link href="css/main.css" rel="stylesheet">
@@ -23,9 +24,9 @@
     <nav>
       <ul class="nav_links">
         <li><a href="#interactive_elements">Interactive Elements</a></li>
-        <li><a href="#text_elements"> Text styling</a></li>
+        <li><a href="#text_elements"> Text Elements</a></li>
         <li><a href="#combined_elements">Combined elements</a></li>
-        <li><a href="#BRANDING_COMPONENTS">Branding</a></li>
+        <li><a href="#branding_components">Branding</a></li>
     </nav>
 
     <nav>
@@ -62,13 +63,14 @@
 
       <h3>Sample code:</h3>
       <div class="code-section">
-        <pre><code>
-        &lt;ul class=&quot;nav_links&quot;&gt;
+        <p class="code">
+          &lt;ul class=&quot;nav_links&quot;&gt;
           &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;home.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;productlist.html&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;contact_us.html&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;</code></pre>
+          &lt;/ul&gt;
+        </p>
       </div>
     </section>
 
@@ -76,9 +78,9 @@
       <h3>IN-TEXT LINK</h3>
       <a href="detail.html">MORE DETAILS</a>
       <h3>Sample code:</h3>
-      <pre><code>
+      <p class="code">
         &lt;a href=&quot;detail.html&quot;&gt;MORE DETAILS&lt;/a&gt;
-      </code></pre>
+      </p>
     </section>
 
     <section class="buttons">
@@ -89,15 +91,15 @@
         <a href="detail.html"><button type="button">SEE DETAILS</button></a></a>
       </ul>
       <h3>Sample code:</h3>
-      <pre><code>
+      <p class="code">
         &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;ADD TO CART&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
         &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;SUBMIT&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
         &lt;a href=&quot;detail.html&quot;&gt;&lt;button type=&quot;button&quot;&gt;SEE DETAILS&lt;/button&gt;&lt;/a&gt;&lt;/a&gt;
-      </pre></code>
+      </p>
     </section>
 
     <section class="Input-Text">
-      <h2>INPUT TEXT</h2>
+      <h3>INPUT TEXT</h3>
       <form>
         <div class="form">
           <label for="cname">Name on Card</label>
@@ -109,16 +111,16 @@
 
       </div>
       <h3>Sample code:</h3>
-      <pre><code>
+      <p class="code">
         &lt;form&gt;
-          &lt;div class=&quot;form&quot;&gt;
-            &lt;label for=&quot;cname&quot;&gt;Name on Card&lt;/label&gt;
-            &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; placeholder=&quot;John Smith&quot;&gt;
-            &lt;label for=&quot;ccnum&quot;&gt;Credit card number&lt;/label&gt;
-            &lt;input type=&quot;text&quot; id=&quot;num&quot; name=&quot;number&quot; placeholder=&quot;1234-2345-3456-4567&quot;&gt;
-          &lt;/div&gt;
+        &lt;div class=&quot;form&quot;&gt;
+        &lt;label for=&quot;cname&quot;&gt;Name on Card&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; placeholder=&quot;John Smith&quot;&gt;
+        &lt;label for=&quot;ccnum&quot;&gt;Credit card number&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;num&quot; name=&quot;number&quot; placeholder=&quot;1234-2345-3456-4567&quot;&gt;
+        &lt;/div&gt;
         &lt;/form&gt;
-      </pre></code>
+      </p>
     </section>
 
     <section class="radio">
@@ -129,14 +131,14 @@
         <input type="radio" name="Plan" value="B"> Plan B<br>
         <input type="radio" name="Plan" value="C"> Others
       </form>
-      <h3>Sample Code</h3>
-      <pre><code>
+      <h3>Sample Code:</h3>
+      <p class="code">
         &lt;form&gt;
-          &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;A&quot; checked&gt; Plan A
-          &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;B&quot;&gt; Plan B
-          &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;C&quot;&gt; Others
+        &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;A&quot; checked&gt; Plan A
+        &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;B&quot;&gt; Plan B
+        &lt;input type=&quot;radio&quot; name=&quot;Plan&quot; value=&quot;C&quot;&gt; Others
         &lt;/form&gt;
-      </pre></code>
+      </p>
     </section>
 
   </section>
@@ -151,7 +153,8 @@
     <div class="element">
       <p class="text" id="headings">Headings</p>
       <p class="text" id="Subheadings">Subheadings</p>
-      <p class="text" id="Paragraphs">Paragraphs:<br>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
+      <p class="text" id="Paragraphs">Paragraphs:<br>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
     </div>
   </section>
 
@@ -163,16 +166,13 @@
       <li>Product 3</li>
     </ol>
     <h3>Sample Code</h3>
-    <pre><code>
-        &lt;ol&gt;
-          &lt;li&gt;Kitchen&lt;/li&gt;
-          &lt;li&gt;Living&lt;/li&gt;
-          &lt;li&gt;Bathroom&lt;/li&gt;
-        &lt;/ol&gt;
-</pre></code
-
-  </section>
-
+    <p class="code">
+      &lt;ol&gt;
+      &lt;li&gt;Product1&lt;/li&gt;
+      &lt;li&gt;Product2&lt;/li&gt;
+      &lt;li&gt;Product3&lt;/li&gt;
+      &lt;/ol&gt;
+    </p>
   </section>
   <!-- // TEXT ELEMENTS SECTION -->
 
@@ -311,44 +311,59 @@
       </div>
   </section>
 
-  <section id="BRANDING_COMPONENTS">
+  <section id="branding_components">
     <h2>Branding Components</h2>
 
-  <section class="Fonts">
-    <h3>Fonts</h3>
-    <p class="fontfamily" id="subheading-font">'Oswald', sans-serif - Sub Headings</p>
-    <p class="fontfamily" id="heading-font">'Montserrat', sans-serif - Headings</p>
-    <p class="fontfamily" id="text-font">'Cormorant Garamond', serif - Paragraph</p>
+    <p class="Brand-type">What type of brand is this?</p>
+    <p class="brand-info">BeSimple. Is a brand that sell a variety of authentic Japanese home goods. This includes living decor, kitchenware and everyday products. The brand values the importance of healthy, comforting lifestyle and offers products
+      that reflect this
+      value. We hope to bring comfort into homes and people’s lifestyle.</p>
+
+    <p class="Brand-type">Target audience:</p>
+    <p class="brand-info">We wish to attract all individuals, and families who are looking for unique decor or pieces to add style and value to their home or lifestyle. Especially individuals who desire affordable products that are modern and reflect
+      Japanese culture. The
+      products are made with unique material, yet at a affordable price making it ideal and appropriate for middle class families.</p>
+
+    <p class="Brand-type">How can BeSimple entice someone to purchase a product or service?</p>
+    <p class="brand-info">We aim to reflect the culture of the company, yet make the website easy to navigate and help customers to learn more about who BeSimple is. We utilize high quality images and information about our products to build the trust
+      of our users.
+      Furthermore, we aim to build relationships with our customers and help them with satisfy their needs through the contact us page and links to social media to further connect with us.</p>
+
+    <section class="Fonts">
+      <h3>Fonts</h3>
+      <p class="fontfamily" id="subheading-font">'Lato', sans-serif; - Sub Headings</p>
+      <p class="fontfamily" id="heading-font">'Montserrat', sans-serif - Headings</p>
+      <p class="fontfamily" id="text-font">'Cormorant Garamond', serif - Paragraph</p>
+
+    </section>
+
+
+    <section class="Palette">
+      <h3>Palettes</h3>
+      <img src="image/WechatIMG63.png" alt="palette">
+
+
+    </section>
+
+    <h3>Imagery</h3>
+    <section class="Imagery">
+      <div class"style-direction" id="b">
+        <img src="image/detail.jpg" alt="ricebowl">
+      </div>
+      <div class"style-direction" id="b">
+        <img src="image/detail2.jpg" alt="banner">
+      </div>
+      <div class"style-direction" id="b">
+        <img src="image/3-6.jpg" alt="plate">
+      </div>
+      <div class"style-direction" id="b">
+        <img src="image/11.jpg" alt="greentea">
+      </div>
+    </section>
+
 
   </section>
 
-
-  <section class="Palette">
-    <h3>Palettes</h3>
-    <img src="image/WechatIMG63.png" alt="palette">
-
-
-  </section>
-
-  <h3>Imagery</h3>
-  <section class="Imagery">
-    <div class"style-direction" id="b">
-      <img src="image/detail.jpg" alt="ricebowl">
-    </div>
-    <div class"style-direction" id="b">
-      <img src="image/detail2.jpg" alt="banner">
-    </div>
-    <div class"style-direction" id="b">
-      <img src="image/3-6.jpg" alt="plate">
-    </div>
-    <div class"style-direction" id="b">
-      <img src="image/11.jpg" alt="greentea">
-    </div>
-  </section>
-
-
-  </section>
-  
   <!-- // COMBINED ELEMENTS SECTION -->
 
 
