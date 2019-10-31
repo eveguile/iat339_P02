@@ -30,18 +30,17 @@ h2 {
 h3 {
   color: #0b4235;
   font-size: 18px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
   margin: 40px 60px;
 }
 
-pre{
+pre {
   display: flex;
   flex-wrap: wrap;
-  flex:1;
+  flex: 1;
   margin: 10px;
 }
-
 
 /*all main navigation bar section*/
 .main_nav {
@@ -58,10 +57,13 @@ pre{
   list-style: none;
   justify-content: space-between;
 }
+.nav_links {
+  margin-left: 60px;
+}
 
 .main_nav a, .navbar a {
+  padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 60px;
   color: #0b4235;
   text-decoration: none;
 }
@@ -71,7 +73,6 @@ pre{
 }
 
 /*interactive elements bar section*/
-
 #interactive_elements .element .cart-button {
   font-family: 'Cormorant Garamond', serif;
   margin: 1em 60px;
@@ -93,10 +94,8 @@ pre{
 }
 
 .element a {
-  color:#0b4235;
-  background-color: white;
+  color: #0b4235;
   font-family: 'Cormorant Garamond', serif;
-  text-decoration: none;
   margin-left: 60px;
 }
 
@@ -120,57 +119,6 @@ pre{
   background-color: black;
   color: white;
 }
-/*text elements section*/
-#text_elements .element{
-  margin-left: 60px;
-}
-#text_elements .text{
-  margin-bottom: 1em;
-}
-.element #headings{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5em;
-}
-.element #Subheadings{
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.3em;
-
-}
-.element #Paragraphs{
-  width: 80%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.0em;
-
-}
-/*forms*/
-.Input-Text form input, .Input-Text form label {
-  color: #0b4235;
-  font-family: 'Oswald', sans-serif;
-  display: block;
-  width: 30%;
-  height: 20px;
-  margin-top: 20px;
-  margin-left: 60px;
-}
-.Input-Text form input, .payment .form input{
-  border:none;
-  border-bottom: 2px solid #0b4235;
-}
-.Input-Text form input:hover, .payment .form input:hover{
-  border-bottom: 2px solid #f9cbbb;
-}
-.payment .form {
-  margin-left: 60px;
-}
-.payment .form label {
-  letter-spacing: 0.1em;
-  color: #0b4235;
-  font-family: 'Oswald', sans-serif;
-  display: block;
-  width: 30%;
-  height: 20px;
-  margin: 20px 0px;
-}
 
 .radio input {
   -webkit-appearance: none;
@@ -191,25 +139,32 @@ pre{
 }
 
 .radio input:checked {
-  background:#0b4235;
+  background: #0b4235;
 }
 
-.Fonts p {
-  margin:1.3em 60px;
+/*text elements section*/
+#text_elements .element {
+  margin-left: 60px;
 }
-.Fonts #subheading-font{
-  font-size: 2em;
-  font-family: 'Oswald', sans-serif
 
+#text_elements .text {
+  margin-bottom: 1em;
 }
-.Fonts #heading-font{
-  font-size: 1.8em;
-  font-family: 'Montserrat', sans-serif
 
+.element #headings {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
 }
-.Fonts #text-font{
-  font-size: 1.5em;
-  font-family: 'Cormorant Garamond', serif
+
+.element #Subheadings {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.3em;
+}
+
+.element #Paragraphs {
+  width: 80%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.0em;
 }
 
 .lists ol {
@@ -218,82 +173,74 @@ pre{
   font-size: 16px;
 }
 
-#combined_elements .nav_links li a:hover {
-  color: #c06c84;
-}
-
-.BRANDING_COMPONENTS p {
-  font-family: 'Cormorant Garamond', serif;
-  margin: 0 20px;
-  width: 80%;
-}
-/*color palette section*/
-.Palette img{
+/*Combined elements section*/
+/*forms*/
+.Input-Text form input, .Input-Text form label {
+  color: #0b4235;
+  font-family: 'Oswald', sans-serif;
   display: block;
+  width: 30%;
+  height: 20px;
+  margin-top: 20px;
   margin-left: 60px;
-
-
 }
-/*imagery section*/
-.Imagery  {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 15em;
+
+.Input-Text form input, .payment .form input {
+  border: none;
+  border-bottom: 1px solid #0b4235;
 }
-.Imagery img {
+
+.Input-Text form input:hover, .payment .form input:hover {
+  border-bottom: 2px solid #f9cbbb;
+}
+
+.payment .form {
   margin-left: 60px;
-  height: 200px;
-  width: 200px;
 }
 
-
-@media screen and (max-width: 50em) {
-  .main_nav .nav_links li, .navbar .nav_links li, .buttons a, #combined_elements .nav_links li {
-    margin-bottom: 10px;
-    display: block;
-  }
-
-  .nav_bar, .navbar .nav_links, .buttons a {
-    display: block;
-  }
-
-  .Palette .block {
-    width: 100%;
-  }
-  .product .column1{
-    flex-direction: column;
-  }
-  pre{
-  }
+.payment .form label {
+  letter-spacing: 0.1em;
+  color: #0b4235;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  width: 30%;
+  height: 20px;
+  margin: 20px 0px;
 }
 
-.product .column1{
+/*
+begin product list
+*/
+.product .column1 {
   margin-top: 40px;
   margin-left: 60px;
 }
 
-.product .column1 .New_Arrivals{
+.product .column1 .New_Arrivals {
   display: flex;
   flex-wrap: wrap;
-  width:100%;
+  width: 100%;
 }
-.product .column1 .item{
+
+.product .column1 .item {
   margin-bottom: 1em;
   justify-content: space-around;
-  flex:1;
+  flex: 1;
 }
-.product .column1 .item img{
-  height:200px;
+
+.product .column1 .item img {
+  height: 200px;
 }
-.product .column1 .item img:hover{
+
+.product .column1 .item img:hover {
   opacity: 0.7;
 }
-.product .column1 .item p{
+
+.product .column1 .item p {
   font-family: 'Oswald', sans-serif;
   font-size: 0.7em;
   padding-top: 5px;
 }
-
 
 /*
 begin checkout form
@@ -309,9 +256,11 @@ begin checkout form
   justify-content: space-around;
   flex-grow: 1;
 }
-.checkoutform .column1 h4{
+
+.checkoutform .column1 h4 {
   margin: 20px 20px;
 }
+
 .checkoutform .column1 {
   width: 35%;
   color: #0b4235;
@@ -330,14 +279,11 @@ begin checkout form
   margin-bottom: 15px;
 }
 
-/*
-begin column2
-*/
 .checkoutform .column2 {
   width: 35%;
   color: #0b4235;
   font-family: 'Open Sans', sans-serif;
-  font-size:14px;
+  font-size: 14px;
 }
 
 .checkoutform .column2 .form {
@@ -370,7 +316,7 @@ begin column2
   border: 1px solid #0b4235;
 }
 
-*:focus{
+*:focus {
   outline: none;
 }
 
@@ -390,7 +336,6 @@ begin column2
   border-bottom: 1px solid #0b4235;
 }
 
-
 @media screen and (max-width:920px) {
   .container {
     flex-direction: column;
@@ -402,10 +347,89 @@ begin column2
     margin-bottom: 20px;
   }
 
-  .checkoutform .column1 input , .checkoutform .column2 .form input{
+  .checkoutform .column1 input, .checkoutform .column2 .form input {
     width: 200%;
   }
-
 }
 
+/*end checkout form*/
+/*branding components start*/
+
+#branding_components .Brand-type {
+  margin-left: 60px;
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0.4em;
+}
+
+#branding_components .brand-info {
+  width:70%;
+  margin-left: 60px;
+  font-size: 1em;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.Fonts .fontfamily{
+  margin-left: 60px;
+  margin-bottom: 0.4em;
+}
+.Fonts #subheading-font {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif
+}
+
+.Fonts #heading-font {
+  font-size: 1.8em;
+  font-family: 'Montserrat', sans-serif
+}
+
+.Fonts #text-font {
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif
+}
+
+.BRANDING_COMPONENTS p {
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0 20px;
+  width: 80%;
+}
+
+/*color palette section*/
+.Palette img {
+  display: block;
+  margin-left: 60px;
+}
+
+/*imagery section*/
+.Imagery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 15em;
+}
+
+.Imagery img {
+  margin-left: 60px;
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 50em) {
+  .main_nav .nav_links li, .navbar .nav_links li, .buttons a, #combined_elements .nav_links li {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .nav_bar, .navbar .nav_links, .buttons a {
+    display: block;
+  }
+
+  .Palette .block {
+    width: 100%;
+  }
+
+  .product .column1 {
+    flex-direction: column;
+  }
+
+  pre {}
 }

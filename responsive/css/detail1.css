@@ -1,14 +1,17 @@
+/*
+font-family: 'Cormorant Garamond', serif; - text,buttons
+font-family: 'Montserrat', sans-serif; - heading for nav
+font-family: 'Oswald', sans-serif; - subheading
+*/
+
+
 * {
-  /*font-family: 'Times','Lato',sans-serif;*/
   margin: 0;
   padding: 0;
 }
 
 body {}
 
-.logo, .nav-links a {
-  font-family: 'Ubuntu', sans-serif;
-}
 
 .info-section {
   padding-top: 5em;
@@ -27,7 +30,7 @@ body {}
 }
 
 .collection-title {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   margin-bottom: 0.5em;
   letter-spacing: 0.1em;
@@ -36,6 +39,7 @@ body {}
 }
 
 .product-title {
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 0.5em;
   letter-spacing: 0.08em;
   font-size: 1.4em;
@@ -55,7 +59,7 @@ body {}
 }
 
 .product-text {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
   margin: 1em 0em;
   letter-spacing: 0.1em;
   font-size: 0.8em;
@@ -76,7 +80,7 @@ body {}
 }
 
 .cart-button {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
   margin: 1em 0em;
   font-weight: 300;
   font-size: 0.7em;
@@ -143,7 +147,7 @@ body {}
 }
 
 .product-descrip {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
   padding-top: 2em;
   padding-bottom: 2em;
   width: 40em;
@@ -154,7 +158,7 @@ body {}
 }
 
 .descrip {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
   margin: 1em 0em;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -308,6 +312,9 @@ body {}
     padding: 2em 0em;
     flex-grow: 0;
   }
+  .text-section {
+    margin-left: 0em;
+  }
 
   .section-title {
     display: flex;
@@ -316,13 +323,18 @@ body {}
   }
 
   .product-descrip {
+    font-size: 0.9em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
     text-align: center;
     padding: 0em;
-    margin: 3em 5em;
+    margin: 3em 2.5em;
+  }
+  .descrip{
+    width:100%;
+    font-size: 0.8em;
   }
 
   .deatil-image {

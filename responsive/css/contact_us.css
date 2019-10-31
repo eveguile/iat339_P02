@@ -1,27 +1,20 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0em;
+  padding: 0em;
   box-sizing: border-box;
 }
 
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Righteous', cursive;
-font-family: 'Ubuntu', sans-serif;
-https://www.youtube.com/watch?v=ceGcS5CAi5s contact us responsive
-https://www.youtube.com/watch?v=oAX3sliWVUE product listing
-<i class="fab fa-facebook"></i>
-<i class="fab fa-twitter"></i>
-<i class="fab fa-instagram"></i>
-
-
+font-family: 'Cormorant Garamond', serif; - text,buttons
+font-family: 'Montserrat', sans-serif; - heading for nav
+font-family: 'Oswald', sans-serif; - subheading
 */
 
 /*
 begin contact us information
 */
 .container {
-  margin: 100px 0px;
+  margin: 6.250em 0em;
   margin-bottom: 20%;
 }
 
@@ -44,24 +37,24 @@ begin contact us information
 }
 
 .form h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: left;
   color: #0b4235;
-  margin-bottom: 50px;
+  margin-bottom: 3.125em;
   width: 95%;
-  font-size: 23px;
+  font-size: 1.438em;
 }
 
 .form, .contact-form {
-  font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
   align-items: left;
-  margin: 30px;
-  padding: 0px 40px;
+  margin: 1.875em;
+  padding: 0em 2.500em;
 }
 
 .form-heading, h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 1.875em;
+  margin-bottom: 1.250em;
   color: #0b4235;
   text-align: left;
 }
@@ -69,32 +62,32 @@ begin contact us information
 .input-form {
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 1.563em;
 }
 
 .inner-msg {
-  padding: 0px 0px;
+  padding: 0em 0em;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.250em;
 }
 
 .input>input {
   border: 1px solid grey;
   align-items: center;
-  width: 220px;
-  padding: 8px 40px;
+  width: 13.750em;
+  padding: 8px 2.500em;
 }
 
 .input {
-  margin-bottom: 10px;
+  margin-bottom: 0.938em;
 }
 .input input:focus, textarea:focus{
   outline:none;
 }
 .input h3 , .inner-msg h3{
   display: block;
-  font-size: 15px;
-  margin-bottom: 10px;
+  font-size: 0.938em;
+  margin-bottom: 0.938em;
 }
 .input input:hover {
   border: none;
@@ -106,8 +99,8 @@ color: #f9cbbb;
 
 .msg>textarea {
   width: 100%;
-  padding: 10px 40px;
-  height: 150px;
+  padding: 0.938em 2.500em;
+  height: 9.375em;
 }
 
 .container-right {
@@ -117,22 +110,24 @@ color: #f9cbbb;
 
 .contact-form .container-items  {
   display: block;
-  padding:10px 15px 20px 0px;
-  margin-bottom: 10px 10px;
+  padding:0.938em 0.938em 1.250em 0em;
+  margin-bottom: 0.938em 0.938em;
 }
 .container-items h3,p{
   color: #0b4235;
-  padding-bottom: 10px;
-  font-size: 16px;
+  padding-bottom: 0.938em;
+  font-size: 1em;
 }
 .container-items p{
+  font-family: 'Cormorant Garamond', serif;
   color: #0b4235;
-  font-size: 12px;
+  font-size: 1.125em;
 }
 .container-items i{
-  padding:0px 15px 20px 0px;
-  font-size: 26px;
+  padding:0em 0.938em 1.250em 0em;
+  font-size: 1.625em;
   cursor: pointer;
+  color:#0b4235;
 }
 .container-items i:hover{
   color:#f9cbbb;
@@ -141,9 +136,10 @@ color: #f9cbbb;
 submit button
 */
 .btn {
+  font-family: 'Cormorant Garamond', serif;
   border: 1px solid grey;
-  padding: 10px 20px;
-  width: 180px;
+  padding: 0.938em 1.250em;
+  width: 11.250em;
   cursor: pointer;
   transition: all 0.5 ease;
   text-align: center;
@@ -161,13 +157,13 @@ styling social icons
 */
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:56.250em) {
   .input-form {
     flex-direction: column;
   }
 
   .input:first-child input {
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
   }
 
   .form .input input {
@@ -184,13 +180,13 @@ styling social icons
   }
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:36.250em) {
   .address {
     flex-direction: column;
     align-items: center;
   }
 
   .inner-address {
-    margin-bottom: 25px;
+    margin-bottom: 1.563em;
   }
 }

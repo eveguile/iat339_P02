@@ -1,3 +1,8 @@
+/*
+font-family: 'Cormorant Garamond', serif; - text,buttons
+font-family: 'Montserrat', sans-serif; - heading for nav
+font-family: 'Oswald', sans-serif; - subheading
+*/
 * {
   margin: 0px;
   padding: 0px;
@@ -5,23 +10,10 @@
 }
 
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Righteous', cursive;
-font-family: 'Ubuntu', sans-serif;
-https://www.youtube.com/watch?v=ceGcS5CAi5s contact us responsive
-https://www.youtube.com/watch?v=oAX3sliWVUE product listing
-<i class="fab fa-facebook"></i>
-<i class="fab fa-twitter"></i>
-<i class="fab fa-instagram"></i>
-
-
-*/
-
-/*
 begin checkout form
 */
 .container {
-  margin: 60px 100px;
+  margin: 3.750em 6.28em;
   border: 1px solid lightgrey;
 }
 
@@ -35,19 +27,19 @@ begin checkout form
 .column1 {
   width: 35%;
   color: #0b4235;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9em;
 }
 
-/*all forms have 20px of padding*/
+/*all forms have 1.250em of padding*/
 .column1 .billing_info, .form-group, .column2 .payment_info, .column3 .summary {
-  padding: 20px;
+  padding: 1.250em;
 }
 
 .column1 .billing_info input, .form-group input {
   width: 50%;
   height: 28px;
-  margin-bottom: 15px;
+  margin-bottom: 0.85em;
 }
 
 /*
@@ -56,38 +48,37 @@ begin column2
 .column2 {
   width: 35%;
   color: #0b4235;
-  font-family: 'Open Sans', sans-serif;
-  font-size:
+  font-family: 'Oswald', sans-serif
 }
 
 .column2 .form {
-  margin-top: 20px;
+  margin-top: 1.250em;
 }
 
 .column2 .payment_info h4 {
-  margin-bottom: 25px;
+  margin-bottom: 1.563em;
 }
 
 .column2 .payment_info i {
-  font-size: 30px;
-  padding-right: 30px;
+  font-size: 1.875em;
+  padding-right: 1.875em;
 }
 
 .column2 .payment_info input {
   width: 50%;
   height: 28px;
-  margin-bottom: 15px;
+  margin-bottom: 0.938em;
 }
 
 .column2 .payment_info button {
-  font-size: 20px;
+  font-size: 1.250em;
 }
 
 .column2 .icon-container {
   border: none;
   width: 100%;
   height: 20%;
-  font-size: 20px;
+  font-size: 1.250em;
   display: flex;
 }
 
@@ -96,30 +87,29 @@ begin column3
 */
 .column3 {
   width: 30%;
-  background-color: lightgrey;
+  background-color: #f9f9f9;
   color: #0b4235;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 14px;
 }
 
 .column3 .summary p {
-  padding: 10px;
+  padding: 0.625em;
   color: #0b4235;
 }
 
 input[input=text] {
   width: 100%;
-  margin-bottom: 10px;
-  padding: 12px;
-  border: 1px solid #0b4235;
+  margin-bottom: 0.625em;
+  padding: 0.750em;
 }
 
-*:focus{
+*:focus {
   outline: none;
 }
 
 label {
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
   display: block;
   color: #0b4235;
 }
@@ -138,12 +128,13 @@ label {
 continue to checkout button
 */
 .btn {
+  font-family: 'Cormorant Garamond', serif;
   border: 1px solid black;
-  padding: 12px;
-  margin: 10px 0px;
+  padding: 0.750em;
+  margin: 0.625em 1.563em;
   width: 80%;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 0.750em;
   background-color: white;
 }
 
@@ -157,15 +148,15 @@ span.price {
   color: #0b4235;
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width:57.500em) {
   .container {
     flex-direction: column;
-    margin: 10px 25px;
+    margin: 0.625em 1.563em;
   }
 
   .column1, .column2, .column3 {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
   }
 
   input {
@@ -173,10 +164,10 @@ span.price {
   }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:56.250em) {
   .container {
     flex-direction: column;
-    margin: 10px 25px;
+    margin: 0.625em 1.563em;
   }
 
   input {
